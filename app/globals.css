@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #060810;
+  --surface: rgba(255, 255, 255, 0.04);
+  --border: rgba(0, 212, 255, 0.25);
+  --cyan: #00d4ff;
+  --violet: #7b2ff7;
+  --red: #ff4757;
+  --green: #2ed573;
+  --text: #e8eaf6;
+  --muted: rgba(232, 234, 246, 0.55);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: rgba(255,255,255,0.03); }
+::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,212,255,0.5); }
+
+/* Grid overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(0, 212, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Animated BG blobs */
+.bg-blob-1,
+.bg-blob-2 {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.18;
+  pointer-events: none;
+  z-index: 0;
+  animation: drift 25s ease-in-out infinite alternate;
+}
+.bg-blob-1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--cyan), var(--violet));
+  top: -200px;
+  left: -200px;
+}
+.bg-blob-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, var(--violet), #f093fb);
+  bottom: -200px;
+  right: -200px;
+  animation-delay: -12s;
+}
+
+@keyframes drift {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(80px, 80px) scale(1.15); }
+}
+
+/* Floating label inputs */
+.input-group {
+  position: relative;
+}
+.input-group input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 14px 44px 14px 16px;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.input-group input::placeholder {
+  color: rgba(232, 234, 246, 0.35);
+  font-size: 13px;
+}
+.input-group input:focus,
+.input-group input:not(:placeholder-shown) {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+  background: rgba(0, 212, 255, 0.04);
+}
+.input-group .field-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: 16px;
+  pointer-events: none;
+  transition: color 0.3s;
+}
+.input-group input:focus ~ .field-icon,
+.input-group input:not(:placeholder-shown) ~ .field-icon {
+  color: var(--cyan);
+}
+
+/* MCQ Option states */
+.mcq-opt { transition: all 0.25s ease; }
+.mcq-opt:hover { border-color: rgba(0,212,255,0.5) !important; background: rgba(0,212,255,0.07) !important; }
+.mcq-opt.selected { border-color: var(--cyan) !important; background: rgba(0,212,255,0.1) !important; }
+.mcq-opt.correct  { border-color: var(--green) !important; background: rgba(46,213,115,0.1) !important; color: var(--green) !important; }
+.mcq-opt.wrong    { border-color: var(--red) !important; background: rgba(255,71,87,0.08) !important; color: var(--red) !important; }
+
+/* AI dot pulse */
+@keyframes ai-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(0.6); }
+}
+.ai-dot { animation: ai-pulse 1.5s infinite; }
+
+/* Spinner */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.spinner {
+  width: 18px; height: 18px;
+  border: 2px solid rgba(123,47,247,0.3);
+  border-top-color: var(--violet);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  flex-shrink: 0;
+}
+
+/* Toast slide in */
+@keyframes toastIn {
+  from { right: -420px; opacity: 0; }
+  to   { right: 24px; opacity: 1; }
+}
+.toast-show { animation: toastIn 0.35s cubic-bezier(.68,-.55,.265,1.55) forwards; }
+
+/* Fade up */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.4s ease forwards; }

@@ -1,0 +1,2261 @@
+[
+  {
+    "q_no": "1",
+    "question": "Define VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "A type of software program", "B": "A methodology for designing circuits", "C": "A type of processor architecture", "D": "A type of network protocol"},
+    "answer": "B"
+  },
+  {
+    "q_no": "2",
+    "question": "Choose the function of a digital circuit.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K5",
+    "options": {"A": "To process analog and binary signals", "B": "To process binary signals", "C": "To process sound signals", "D": "To process binary signals"},
+    "answer": "B"
+  },
+  {
+    "q_no": "3",
+    "question": "Identify the meaning of \"semiconductor\" in the context of VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "A material that conducts electricity well", "B": "A type of insulator", "C": "A material that resists the flow of electricity", "D": "A type of conductor"},
+    "answer": "D"
+  },
+  {
+    "q_no": "4",
+    "question": "Define a transistor.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "A semiconductor device used to amplify or switch electronic signals", "B": "A type of software program", "C": "A type of processor architecture", "D": "A type of network protocol"},
+    "answer": "A"
+  },
+  {
+    "q_no": "5",
+    "question": "List the primary steps involved in transforming a circuit design into a physical layout.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "Circuit optimization, circuit verification, physical design", "B": "Circuit verification, physical design, circuit optimization", "C": "Physical design, circuit optimization, circuit verification", "D": "Not given"},
+    "answer": "A"
+  },
+  {
+    "q_no": "6",
+    "question": "Choose the purpose of VLSI technology.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K5",
+    "options": {"A": "To create smaller and faster electronic devices", "B": "To create larger and slower electronic devices", "C": "To create software programs", "D": "To create mechanical devices"},
+    "answer": "A"
+  },
+  {
+    "q_no": "7",
+    "question": "Choose the role of a fabrication plant in VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K5",
+    "options": {"A": "To design and optimize circuits", "B": "To test and verify circuits", "C": "To manufacture physical integrated circuits", "D": "To simulate and analyze circuits"},
+    "answer": "C"
+  },
+  {
+    "q_no": "8",
+    "question": "Define the term \"IC\" in the context of VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "An integrated circuit", "B": "An insulator circuit", "C": "An inductive circuit", "D": "An invert circuit"},
+    "answer": "A"
+  },
+  {
+    "q_no": "9",
+    "question": "List some common applications of VLSI technology.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "Smartphones, computers, TVs", "B": "Cars, airplanes, boats", "C": "Refrigerators, washing machines, vacuum cleaners", "D": "Not provided"},
+    "answer": "A"
+  },
+  {
+    "q_no": "10",
+    "question": "Identify the type of signals that VLSI circuits are designed to process.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "Analog signals and binary signals", "B": "Analog signals only", "C": "Binary signals only", "D": "Sound signals and image signals"},
+    "answer": "A"
+  },
+  {
+    "q_no": "11",
+    "question": "Define the term \"VLSI design\".",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "The process of designing complex integrated circuits", "B": "The process of designing simple electronic devices", "C": "The process of designing mechanical devices", "D": "The process of designing software programs"},
+    "answer": "A"
+  },
+  {
+    "q_no": "12",
+    "question": "Identify the two primary levels of design abstraction used in VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "Behavioral and structural", "B": "Logical and physical", "C": "Sequential and combinational", "D": "Analog and digital"},
+    "answer": "A"
+  },
+  {
+    "q_no": "13",
+    "question": "List some common design tools used in VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "Logic synthesis tools, place and route tools, layout editors", "B": "Hammers, screwdrivers, wrenches", "C": "Paintbrushes, pencils, erasers", "D": "Not mentioned"},
+    "answer": "A"
+  },
+  {
+    "q_no": "14",
+    "question": "Identify the main advantage of using a Hardware Description Language (HDL) in VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "It allows designers to describe and simulate a circuit\\'s behavior at a high level of abstraction.", "B": "It allows designers to physically construct a circuit using individual components.", "C": "It allows designers to test a circuit\\'s performance under various conditions.", "D": "It allows designers to program the behavior of a circuit using software."},
+    "answer": "A"
+  },
+  {
+    "q_no": "15",
+    "question": "Choose the role of simulation in VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K6",
+    "options": {"A": "To physically construct a circuit using individual components.", "B": "To program the behavior of a circuit using software.", "C": "To optimize the performance of a circuit after it is fabricated.", "D": "To test and verify the functionality of a circuit before it is physically fabricated."},
+    "answer": "D"
+  },
+  {
+    "q_no": "16",
+    "question": "Define Moore's Law.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "The observation that the number of transistors in a dense integrated circuit doubles about every two years.", "B": "The observation that the performance of a microprocessor doubles about every two years.", "C": "The observation that the cost of producing a microprocessor halves about every two years.", "D": "The observation that the size of a microprocessor decreases by half about every two years."},
+    "answer": "A"
+  },
+  {
+    "q_no": "17",
+    "question": "Identify the person who originally described Moore's Law.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "Gordon Moore", "B": "Bill Gates", "C": "Steve Jobs", "D": "Tim Berners-Lee"},
+    "answer": "A"
+  },
+  {
+    "q_no": "18",
+    "question": "List some of the factors that have enabled the continuation of Moore's Law.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "Advances in mechanical engineering, improvements in power generation, and innovations in computer networking", "B": "Advances in lithography, improvements in semiconductor materials, and innovations in chip design", "C": "Advances in biology, improvements in healthcare, and innovations in renewable energy", "D": "Not provided"},
+    "answer": "B"
+  },
+  {
+    "q_no": "19",
+    "question": "Locate the year when Moore\\'s Law was first introduced.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {"A": "1965", "B": "1975", "C": "1985", "D": "1995"},
+    "answer": "A"
+  },
+  {
+    "q_no": "20",
+    "question": "Choose the impact of Moore's Law on the electronics industry.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K6",
+    "options": {"A": "It has driven rapid advancements in computer technology and enabled the development of numerous electronic devices, from smartphones to self-driving cars.", "B": "It has had no significant impact on the electronics industry.", "C": "It has led to the stagnation of computer technology and limited the development of new electronic devices.", "D": "It has caused significant environmental damage due to the high turnover of electronic devices."},
+    "answer": "A"
+  },
+  {
+    "q_no": "21",
+    "question": "Classify the types of semiconductor materials used in Silicon technology.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Intrinsic and Extrinsic", "B": "Conductors and Insulators", "C": "N-type and P-type", "D": "Metals and Alloys"},
+    "answer": "C"
+  },
+  {
+    "q_no": "22",
+    "question": "Choose the main advantage of using Silicon in semiconductor technology.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K5",
+    "options": {"A": "Abundance in nature", "B": "High electrical conductivity", "C": "Low melting point", "D": "Expensive fabrication"},
+    "answer": "A"
+  },
+  {
+    "q_no": "23",
+    "question": "Convert raw silicon into wafers using which process?",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K3",
+    "options": {"A": "Czochralski Process", "B": "Oxidation", "C": "Ion Implantation", "D": "Photolithography"},
+    "answer": "A"
+  },
+  {
+    "q_no": "24",
+    "question": "Choose the primary purpose of wafer processing.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K5",
+    "options": {"A": "To prepare silicon wafers for further fabrication", "B": "To increase the wafer thickness", "C": "To polish the wafers", "D": "To make wafers conductive"},
+    "answer": "A"
+  },
+  {
+    "q_no": "25",
+    "question": "Discuss the role of oxidation in semiconductor fabrication.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Creates a protective oxide layer", "B": "Reduces wafer thickness", "C": "Increases wafer flexibility", "D": "Enhances photolithography"},
+    "answer": "A"
+  },
+  {
+    "q_no": "26",
+    "question": "Estimate the temperature range typically used in oxidation processes.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "800-1200\u00b0C", "B": "400-600\u00b0C", "C": "200-400\u00b0C", "D": "100-300\u00b0C"},
+    "answer": "A"
+  },
+  {
+    "q_no": "27",
+    "question": "Explain the difference between dry and wet oxidation.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K3",
+    "options": {"A": "Dry oxidation uses oxygen gas, wet oxidation uses water vapor", "B": "Wet oxidation is slower", "C": "Dry oxidation creates thicker oxide", "D": "Wet oxidation is less effective"},
+    "answer": "A"
+  },
+  {
+    "q_no": "28",
+    "question": "Express the importance of epitaxial deposition.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Forms high-purity crystalline layers", "B": "Removes contaminants", "C": "Improves oxidation", "D": "Increases wafer thickness"},
+    "answer": "A"
+  },
+  {
+    "q_no": "29",
+    "question": "Generalize the application of ion implantation.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Doping semiconductor material", "B": "Etching wafers", "C": "Cleaning wafers", "D": "Oxidizing wafers"},
+    "answer": "A"
+  },
+  {
+    "q_no": "30",
+    "question": "Give examples of commonly used doping elements.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K1",
+    "options": {"A": "Boron and Phosphorus", "B": "Silicon and Germanium", "C": "Copper and Aluminum", "D": "Nickel and Zinc"},
+    "answer": "A"
+  },
+  {
+    "q_no": "31",
+    "question": "Identify the purpose of diffusion in semiconductor processing.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K1",
+    "options": {"A": "Doping the wafer", "B": "Oxidizing the wafer", "C": "Cleaning the wafer", "D": "Polishing the wafer"},
+    "answer": "A"
+  },
+  {
+    "q_no": "32",
+    "question": "Illustrate the function of cleaning in wafer processing.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Removes contaminants", "B": "Etches patterns", "C": "Deposits thin films", "D": "Dopes the wafer"},
+    "answer": "A"
+  },
+  {
+    "q_no": "33",
+    "question": "Indicate the main purpose of etching in lithography.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K1",
+    "options": {"A": "Removes unwanted material", "B": "Adds layers to the wafer", "C": "Improves oxidation", "D": "Changes conductivity"},
+    "answer": "A"
+  },
+  {
+    "q_no": "34",
+    "question": "Locate the primary difference between positive and negative photoresist.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Positive photoresist becomes soluble in exposed areas", "B": "Negative photoresist dissolves in unexposed areas", "C": "Positive photoresist is used for dry etching only", "D": "Negative photoresist is always thicker"},
+    "answer": "A"
+  },
+  {
+    "q_no": "35",
+    "question": "Which of the following best describes the CMOS fabrication process?",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K1",
+    "options": {"A": "Combines n-type and p-type transistors", "B": "Uses only n-type transistors", "C": "Relies on single doping type", "D": "Requires no lithography"},
+    "answer": "A"
+  },
+  {
+    "q_no": "36",
+    "question": "Paraphrase the basic steps in fabricating CMOS.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Oxidation, lithography, etching, doping, metallization", "B": "Diffusion, oxidation, etching", "C": "Ion implantation, diffusion, cleaning", "D": "Metallization, etching, photolithography"},
+    "answer": "A"
+  },
+  {
+    "q_no": "37",
+    "question": "Recognize the significance of twin-tub CMOS technology.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Enhances flexibility in doping", "B": "Reduces oxidation", "C": "Eliminates photolithography", "D": "Simplifies etching"},
+    "answer": "A"
+  },
+  {
+    "q_no": "38",
+    "question": "Report the main advantage of Silicon on Insulator (SOI) technology.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K3",
+    "options": {"A": "Improved performance and reduced power consumption", "B": "Higher oxidation rates", "C": "Faster etching process", "D": "Lower wafer costs"},
+    "answer": "A"
+  },
+  {
+    "q_no": "39",
+    "question": "Restate the primary function of layout design rules.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Ensure manufacturability and reliability", "B": "Reduce the number of masks required", "C": "Increase wafer thickness", "D": "Eliminate doping"},
+    "answer": "A"
+  },
+  {
+    "q_no": "40",
+    "question": "Summarize the purpose of stick diagrams.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {"A": "Represent circuit layouts", "B": "Indicate wafer thickness", "C": "Show oxidation layers", "D": "Illustrate doping profiles"},
+    "answer": "A"
+  },
+  {
+    "q_no": "41",
+    "question": "How do layout rules influence the yield in VLSI/CMOS fabrication?",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Proper layout rules improve yield", "B": "No correlation exists", "C": "Yield is only affected by doping", "D": "Oxidation determines yield"},
+    "answer": "A"
+  },
+  {
+    "q_no": "42",
+    "question": "What is the role of photolithography in semiconductor fabrication?",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Defines patterns on wafers", "B": "Increases wafer thickness", "C": "Improves oxidation", "D": "Eliminates contamination"},
+    "answer": "A"
+  },
+  {
+    "q_no": "43",
+    "question": "What is the primary function of masks in photolithography?",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Control pattern transfer", "B": "Reduce wafer defects", "C": "Improve etching uniformity", "D": "Increase doping levels"},
+    "answer": "A"
+  },
+  {
+    "q_no": "44",
+    "question": "Arrange the sequence of steps in photolithography.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Coating, Exposure, Development, Etching", "B": "Oxidation, Coating, Etching", "C": "Doping, Lithography, Etching", "D": "Masking, Implantation, Metallization"},
+    "answer": "A"
+  },
+  {
+    "q_no": "45",
+    "question": "List the main advantages of CMOS technology.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Low consumption level", "B": "High speed", "C": "High density", "D": "All of the above"},
+    "answer": "D"
+  },
+  {
+    "q_no": "46",
+    "question": "Choose the basic operation of a MOSFET.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {"A": "Voltage-controlled operation", "B": "Current-controlled operation", "C": "Both voltage and current controlled", "D": "Neither voltage nor current controlled"},
+    "answer": "A"
+  },
+  {
+    "q_no": "47",
+    "question": "Outline the key characteristics of a CMOS inverter.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "High gain", "B": "Low noise", "C": "Simple fabrication", "D": "CMOS is unstable"},
+    "answer": "B"
+  },
+  {
+    "q_no": "48",
+    "question": "Choose the threshold voltage of a MOSFET.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {"A": "Voltage at which MOSFET turns on", "B": "Voltage at which MOSFET turns off", "C": "Voltage at which MOSFET conducts half current", "D": "Voltage at which MOSFET stops conducting"},
+    "answer": "A"
+  },
+  {
+    "q_no": "49",
+    "question": "Name the two primary types of MOSFETs.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K1",
+    "options": {"A": "NMOS & PMOS", "B": "BJT & MOSFET", "C": "CMOS & TTL", "D": "TTL & ECL"},
+    "answer": "A"
+  },
+  {
+    "q_no": "50",
+    "question": "Match the logic function with the CMOS gate: NAND, NOR.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "NAND -> AND, NOR -> OR", "B": "NAND -> NAND, NOR -> NOR", "C": "NAND -> OR, NOR -> AND", "D": "NAND -> XOR, NOR -> XNOR"},
+    "answer": "C"
+  },
+  {
+    "q_no": "51",
+    "question": "Quote the formula for the power dissipation in CMOS circuits.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "P = CV\u00b2f", "B": "P = VI", "C": "P = V\u00b2/R", "D": "P = V\u00b2C"},
+    "answer": "A"
+  },
+  {
+    "q_no": "52",
+    "question": "Recall the main reason why CMOS is preferred over NMOS.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K1",
+    "options": {"A": "Lower power consumption", "B": "Higher noise margin", "C": "Less area requirement", "D": "Lower propagation delay"},
+    "answer": "A"
+  },
+  {
+    "q_no": "53",
+    "question": "Identify the logic function implemented by a CMOS full adder.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Addition", "B": "Subtraction", "C": "Multiplication", "D": "Division"},
+    "answer": "A"
+  },
+  {
+    "q_no": "54",
+    "question": "Label the regions of operation in a MOSFET characteristic curve.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K1",
+    "options": {"A": "Cutoff, Triode, Saturation", "B": "Linear, Exponential, Logarithmic", "C": "Forward, Reverse, Breakdown", "D": "Enhancement, Depletion, Linear"},
+    "answer": "A"
+  },
+  {
+    "q_no": "55",
+    "question": "Recognize the importance of transmission gates in VLSI circuits.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Switching applications", "B": "Voltage-controlled applications", "C": "Used in clock distribution", "D": "Only for digital circuits"},
+    "answer": "A"
+  },
+  {
+    "q_no": "56",
+    "question": "Describe the working of a CMOS D-latch.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Uses feedback to store data", "B": "Works as a flip-flop", "C": "Uses feedback and clock", "D": "Needs clock always"},
+    "answer": "A"
+  },
+  {
+    "q_no": "57",
+    "question": "Explain why a master-slave JK flip-flop is used instead of a normal JK latch.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Eliminates race condition", "B": "Improves reliability", "C": "Reduces complexity", "D": "Minimizes switching losses"},
+    "answer": "A"
+  },
+  {
+    "q_no": "58",
+    "question": "Paraphrase the function of a clocked SR latch.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Prevents invalid states", "B": "Acts as a buffer", "C": "Enables feedback", "D": "Doesn\\'t allow invalid states"},
+    "answer": "A"
+  },
+  {
+    "q_no": "59",
+    "question": "Restate the difference between static and dynamic CMOS logic.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Static logic is faster", "B": "Dynamic logic consumes less power", "C": "Static logic is complex", "D": "Dynamic logic is unstable"},
+    "answer": "A"
+  },
+  {
+    "q_no": "60",
+    "question": "Give original examples of applications of CMOS technology.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Microprocessors", "B": "Memory devices", "C": "Embedded systems", "D": "Consumer electronics"},
+    "answer": "A"
+  },
+  {
+    "q_no": "61",
+    "question": "Summarize the advantages of edge-triggered flip-flops.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Less power consumption", "B": "Better synchronization", "C": "Lower latency", "D": "Faster response"},
+    "answer": "B"
+  },
+  {
+    "q_no": "62",
+    "question": "Contrast the working of CMOS NAND and NOR gates.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "NAND has faster switching", "B": "NOR has more delay", "C": "NOR is used in memory", "D": "NAND is used in ALU"},
+    "answer": "A"
+  },
+  {
+    "q_no": "63",
+    "question": "Interpret the need for pull-up and pull-down networks in CMOS design.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Provides complementary outputs", "B": "Ensures stable logic levels", "C": "Maintains logic levels", "D": "Reduces power dissipation"},
+    "answer": "A"
+  },
+  {
+    "q_no": "64",
+    "question": "Discuss the role of clock signals in sequential CMOS circuits.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "Controls timing", "B": "Prevents glitches", "C": "Regulates power", "D": "Stores data"},
+    "answer": "A"
+  },
+  {
+    "q_no": "65",
+    "question": "Calculate the power dissipation of a CMOS inverter with given parameters.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "P = IV", "B": "P = fCV\u00b2", "C": "P = V\u00b2/R", "D": "P = I\u00b2R"},
+    "answer": "B"
+  },
+  {
+    "q_no": "66",
+    "question": "Predict the behavior of a CMOS inverter under different input voltages.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "Output follows input", "B": "Acts as a switch", "C": "Works as a buffer", "D": "Holds intermediate state"},
+    "answer": "B"
+  },
+  {
+    "q_no": "67",
+    "question": "Apply De Morgan\u2019s Theorem to simplify a CMOS logic expression.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "A\\'B + AB\\'", "B": "AB + A\\'B\\'", "C": "A\\' + B\\'", "D": "A XOR B"},
+    "answer": "A"
+  },
+  {
+    "q_no": "68",
+    "question": "Solve for the output of a given CMOS complex logic circuit.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "AND-OR logic", "B": "Multiplexer", "C": "Decoder", "D": "Encoder"},
+    "answer": "A"
+  },
+  {
+    "q_no": "69",
+    "question": "Illustrate the difference between a latch and a flip-flop.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "Latches are level triggered", "B": "Flip-flops are level triggered", "C": "Flip-flops are edge triggered", "D": "Latches are edge triggered"},
+    "answer": "A"
+  },
+  {
+    "q_no": "70",
+    "question": "Use transmission gates to implement a multiplexer.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "Acts as an analog switch", "B": "Controls impedance", "C": "Reduces resistance", "D": "Boosts signal strength"},
+    "answer": "A"
+  },
+  {
+    "q_no": "71",
+    "question": "Demonstrate the effect of process variations on CMOS performance.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "Affects threshold voltage", "B": "Alters capacitance", "C": "Determines output voltage", "D": "Induces leakage current"},
+    "answer": "A"
+  },
+  {
+    "q_no": "72",
+    "question": "Determine the setup and hold times for a CMOS flip-flop.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "Depends on clock edge", "B": "Depends on input data", "C": "Works without clock", "D": "Irrespective of input"},
+    "answer": "A"
+  },
+  {
+    "q_no": "73",
+    "question": "Perform a transient analysis of a CMOS inverter circuit.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {"A": "Shows voltage transitions", "B": "Shows current changes", "C": "Indicates power consumption", "D": "Indicates energy loss"},
+    "answer": "A"
+  },
+  {
+    "q_no": "74",
+    "question": "List the main design approaches in VLSI.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K1",
+    "options": {"A": "Full Custom Design", "B": "Semi-Custom Design", "C": "Hybrid Design", "D": "ASIC Design"},
+    "answer": "A"
+  },
+  {
+    "q_no": "75",
+    "question": "Choose the key characteristics of Standard Cell Design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {"A": "Pre-designed Cells", "B": "Manual Layout", "C": "Analog Only", "D": "No Reusability"},
+    "answer": "A"
+  },
+  {
+    "q_no": "76",
+    "question": "Outline the advantages of FPGA over ASIC.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K1",
+    "options": {"A": "Reprogrammability", "B": "Lower Cost", "C": "Faster Speed", "D": "Fixed Functionality"},
+    "answer": "A"
+  },
+  {
+    "q_no": "77",
+    "question": "Select Full Custom Design in VLSI.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {"A": "Manually Designed Layout", "B": "Predefined Cells", "C": "FPGA-Based Design", "D": "Gate Array Based"},
+    "answer": "A"
+  },
+  {
+    "q_no": "78",
+    "question": "Name the essential components of FPGA architecture.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K1",
+    "options": {"A": "CLBs", "B": "Microcontroller", "C": "ALU", "D": "DRAM"},
+    "answer": "A"
+  },
+  {
+    "q_no": "79",
+    "question": "Match the following: FPGA - ?",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K1",
+    "options": {"A": "Field Programmable Gate Array", "B": "Fixed Process Gate Array", "C": "Flexible Programmable Grid Array", "D": "Fabricated Process Grid Array"},
+    "answer": "A"
+  },
+  {
+    "q_no": "80",
+    "question": "Quote an application of Standard Cell Design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K1",
+    "options": {"A": "Microprocessors", "B": "Antennas", "C": "Sensors", "D": "Batteries"},
+    "answer": "A"
+  },
+  {
+    "q_no": "81",
+    "question": "Recall the purpose of Look-Up Tables (LUTs) in FPGA.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K1",
+    "options": {"A": "Implement Logic Functions", "B": "Store Data", "C": "Provide Power", "D": "Generate Clocks"},
+    "answer": "A"
+  },
+  {
+    "q_no": "82",
+    "question": "Identify the main limitation of Full Custom Design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K1",
+    "options": {"A": "Time-Consuming", "B": "Low Performance", "C": "No Customization", "D": "Fixed Logic"},
+    "answer": "A"
+  },
+  {
+    "q_no": "83",
+    "question": "Label the major elements of a Standard Cell Library.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "AND, OR, Flip-Flops", "B": "Resistors, Capacitors", "C": "Diodes, Inductors", "D": "Motors, Gears"},
+    "answer": "A"
+  },
+  {
+    "q_no": "84",
+    "question": "Recognize a key difference between ASIC and FPGA.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {"A": "Programmability", "B": "Same Functionality", "C": "Identical Speed", "D": "Same Cost"},
+    "answer": "A"
+  },
+  {
+    "q_no": "85",
+    "question": "Describe the function of Routing Channels in FPGA.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "Connect Logic Blocks", "B": "Store Data", "C": "Generate Clocks", "D": "Provide Power"},
+    "answer": "A"
+  },
+  {
+    "q_no": "86",
+    "question": "Explain why Standard Cell Design is widely used.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "Design Reusability", "B": "Higher Cost", "C": "Slower Speed", "D": "Complex Fabrication"},
+    "answer": "A"
+  },
+  {
+    "q_no": "87",
+    "question": "Paraphrase the meaning of Semi-Custom Design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "Uses Predefined Blocks", "B": "Fully Custom Layout", "C": "Only Standard Cells", "D": "No Predefined Blocks"},
+    "answer": "A"
+  },
+  {
+    "q_no": "88",
+    "question": "Restate the main role of Programmable Interconnect in FPGA.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "Connect Logic Blocks", "B": "Increase Power", "C": "Store Data", "D": "Reduce Speed"},
+    "answer": "A"
+  },
+  {
+    "q_no": "89",
+    "question": "Give original examples of VLSI Semi-Custom Design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "ASICs", "B": "Vacuum Tubes", "C": "Magnetic Disks", "D": "Optical Fibers"},
+    "answer": "A"
+  },
+  {
+    "q_no": "90",
+    "question": "Summarize the key benefits of Standard Cell Libraries.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "Efficient Design", "B": "Random Layout", "C": "No Design Rules", "D": "Higher Complexity"},
+    "answer": "A"
+  },
+  {
+    "q_no": "91",
+    "question": "Contrast Full Custom and Semi-Custom Design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Manual vs Predefined Cells", "B": "Identical Design Flow", "C": "Same Performance", "D": "Equal Cost"},
+    "answer": "A"
+  },
+  {
+    "q_no": "92",
+    "question": "Interpret the need for FPGA in prototyping.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "Rapid Prototyping", "B": "Fixed Design", "C": "Low Cost", "D": "No Programmability"},
+    "answer": "A"
+  },
+  {
+    "q_no": "93",
+    "question": "Discuss the impact of Gate Array Design in Semi-Custom VLSI.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {"A": "Faster Fabrication", "B": "No Customization", "C": "Higher Cost", "D": "Only for Analog"},
+    "answer": "A"
+  },
+  {
+    "q_no": "94",
+    "question": "Calculate the number of logic gates in an FPGA CLB.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Depends on Design", "B": "Fixed 1000", "C": "Always 500", "D": "Only 200"},
+    "answer": "A"
+  },
+  {
+    "q_no": "95",
+    "question": "Predict the future trend in FPGA architectures.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "More Configurable Blocks", "B": "Less Programmability", "C": "Fixed Logic Blocks", "D": "Lower Density"},
+    "answer": "A"
+  },
+  {
+    "q_no": "96",
+    "question": "Apply the concept of Standard Cell Design in real-world applications.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Microprocessors", "B": "Light Bulbs", "C": "Speakers", "D": "Batteries"},
+    "answer": "A"
+  },
+  {
+    "q_no": "97",
+    "question": "Solve a challenge in Full Custom Design implementation.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Time Optimization", "B": "No Customization", "C": "Lack of Power", "D": "Fixed Circuitry"},
+    "answer": "A"
+  },
+  {
+    "q_no": "98",
+    "question": "Illustrate the working of a Flip-Flop in a Standard Cell.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Stores Binary Data", "B": "Generates Clock", "C": "Reduces Heat", "D": "Increases Speed"},
+    "answer": "A"
+  },
+  {
+    "q_no": "99",
+    "question": "Use FPGA-based design for rapid testing.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Prototyping", "B": "Final Manufacturing", "C": "Fixed Layout", "D": "No Reusability"},
+    "answer": "A"
+  },
+  {
+    "q_no": "100",
+    "question": "Demonstrate the impact of Standard Cell Library on chip design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Faster Design Time", "B": "Higher Cost", "C": "No Standardization", "D": "Less Flexibility"},
+    "answer": "A"
+  },
+  {
+    "q_no": "101",
+    "question": "Determine the key limitation of Semi-Custom Design.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Limited Customization", "B": "No Reusability", "C": "Fixed Logic", "D": "Expensive"},
+    "answer": "A"
+  },
+  {
+    "q_no": "102",
+    "question": "Model the relationship between CLBs and Routing in FPGA.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "Interconnected Blocks", "B": "No Connection", "C": "Random Layout", "D": "Fixed Paths"},
+    "answer": "A"
+  },
+  {
+    "q_no": "103",
+    "question": "Perform a comparison between ASIC and FPGA performance.",
+    "type": "MCQ",
+    "co": "CO4",
+    "k_level": "K3",
+    "options": {"A": "ASIC is Faster", "B": "FPGA is Faster", "C": "Both are Same", "D": "Depends on Application"},
+    "answer": "A"
+  },
+  {
+    "q_no": "104",
+    "question": "Model a CMOS-based XOR gate using NAND gates.",
+    "type": "MCQ",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {"A": "3 NAND gates", "B": "4 NAND gates", "C": "5 NAND gates", "D": "6 NAND gates"},
+    "answer": "B"
+  },
+  {
+    "q_no": "105",
+    "question": "Discover the step in wafer processing that involves creating an oxide layer on the wafer surface.",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Schedule the oxidation process", "B": "Simulate the oxide layer formation", "C": "Establish the oxide layer thickness", "D": "Complete the oxide layer formation"},
+    "answer": "D"
+  },
+  {
+    "q_no": "106",
+    "question": "Choose, which process involves removing a portion of the silicon substrate by etching",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Determine the etching solution", "B": "Apply the etching solution", "C": "Manipulate the etching process", "D": "Collect the etching residues"},
+    "answer": "B"
+  },
+  {
+    "q_no": "107",
+    "question": "Report, what is the purpose of the photolithography process",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Prepare the wafer surface", "B": "Record the wafer thickness", "C": "Develop the oxide layer", "D": "Transfer the pattern onto the wafer"},
+    "answer": "D"
+  },
+  {
+    "q_no": "108",
+    "question": "Report, what is the purpose of the chemical vapor deposition (CVD) process",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Produce the final wafer", "B": "Modify the oxide layer", "C": "Articulate the wafer structure", "D": "Grow a thin film on the wafer"},
+    "answer": "D"
+  },
+  {
+    "q_no": "109",
+    "question": "Examine what is the purpose of the ion implantation process:",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Collect the implanted ions", "B": "Relate the implantation dosage", "C": "Judge the implantation energy", "D": "Change the doping concentration"},
+    "answer": "D"
+  },
+  {
+    "q_no": "110",
+    "question": "Choose the act of depositing a thin layer of silicon onto a silicon wafer",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Cleaning", "B": "Etching", "C": "Epitaxial Deposition", "D": "Photo-lithography"},
+    "answer": "C"
+  },
+  {
+    "q_no": "111",
+    "question": "Choose a process of removing material from the surface of a semiconductor wafer",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {"A": "Oxidation", "B": "Diffusion", "C": "Etching", "D": "Cleaning"},
+    "answer": "C"
+  },
+  {
+    "q_no": "112",
+    "question": "Choose the process of modifying the properties of a semiconductor material by adding impurities to it",
+    "type": "MCQ",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {"A": "Oxidation", "B": "Cleaning", "C": "Ion-implantation", "D": "Photo-lithography"},
+    "answer": "C"
+  },
+  {
+    "q_no": "113",
+    "question": "Determine the main differences between behavioral and structural design domains.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Behavioral describes the circuit\\'s function, while structural describes the circuit\\'s implementation.", "B": "Behavioral describes the circuit\\'s implementation, while structural describes the circuit\\'s function.", "C": "Behavioral and structural are interchangeable terms.", "D": "Behavioral and structural are not used in digital VLSI design."},
+    "answer": "A"
+  },
+  {
+    "q_no": "114",
+    "question": "Choose the significance of granularity in digital VLSI designs.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Allows for the use of simpler and more easily replicated sub-circuits.", "B": "Increases the complexity of the overall design and makes replication more difficult.", "C": "Reduces the performance of the circuit", "D": "Increases the power consumption of the circuit."},
+    "answer": "A"
+  },
+  {
+    "q_no": "115",
+    "question": "Articulate the concept of granularity in digital VLSI designs.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "The circuit is designed to meet a specific set of performance requirements.", "B": "The circuit is composed of multiple smaller sub-circuits that can be easily repeated.", "C": "The circuit is designed to minimize power consumption.", "D": "A set of pre-determined design rules are used to ensure that the circuit can be easily replicated."},
+    "answer": "B"
+  },
+  {
+    "q_no": "116",
+    "question": "Establish the advantages of using regularity in digital VLSI designs.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Reduced design time, minimized errors and higher yield.", "B": "Increased power consumption, higher design time and minimized errors.", "C": "Reduced design time, maximized errors and higher yield.", "D": "Increased power consumption, lower design time and lower yield."},
+    "answer": "A"
+  },
+  {
+    "q_no": "117",
+    "question": "Develop a design principle in digital VLSI that explains regularity.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "A set of pre-determined design rules are used to ensure that the circuit can be easily replicated.", "B": "The circuit is designed to meet a specific set of performance requirements.", "C": "The circuit is composed of multiple smaller sub-circuits that can be easily repeated.", "D": "The circuit is designed to minimize power consumption."},
+    "answer": "C"
+  },
+  {
+    "q_no": "118",
+    "question": "Solve the problem of selecting the most suitable VLSI chip for a given application.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Refer to the datasheets of available VLSI chips.", "B": "Use trial and error to test each VLSI chip.", "C": "Consult a VLSI chip expert.", "D": "Determine the required functionality and specifications of the application."},
+    "answer": "D"
+  },
+  {
+    "q_no": "119",
+    "question": "Interpret the difference between a General-purpose VLSI chip and an ASIC.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "General-purpose VLSI chips are used for a specific purpose.", "B": "ASICs are used for general-purpose applications.", "C": "General-purpose VLSI chips are custom-made for a specific customer.", "D": "ASICs are pre-made and can be used by multiple customers."},
+    "answer": "C"
+  },
+  {
+    "q_no": "120",
+    "question": "Illustrate the use of a PLA.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "PLA is used in the design of digital circuits", "B": "PLA is used in the design of analog circuits.", "C": "PLA is used to program FPGA.", "D": "PLA is used to program ASIC."},
+    "answer": "A"
+  },
+  {
+    "q_no": "121",
+    "question": "Determine the type of VLSI chip that is designed for a specific application.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Analog VLSI chips", "B": "Digital VLSI chips", "C": "General-purpose VLSI chips", "D": "ASIC"},
+    "answer": "D"
+  },
+  {
+    "q_no": "122",
+    "question": "Apply the definition of Analog VLSI chips.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "VLSI chips that perform digital functions.", "B": "VLSI chips that perform both analog and digital functions.", "C": "VLSI chips that perform only analog functions.", "D": "VLSI chips that perform only digital functions."},
+    "answer": "C"
+  },
+  {
+    "q_no": "123",
+    "question": "Solve the problem of power dissipation in ULSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "By increasing the clock speed of the chip", "B": "By increasing the number of transistors on the chip", "C": "By decreasing the voltage supply to the chip", "D": "By using a larger package for the chip"},
+    "answer": "C"
+  },
+  {
+    "q_no": "124",
+    "question": "Articulate the importance of Moore\\'s law in VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "It has led to the development of smaller, faster and cheaper chips", "B": "It has made it difficult to design complex chips", "C": "It has decreased the number of transistors on a chip", "D": "It has no impact on VLSI design"},
+    "answer": "A"
+  },
+  {
+    "q_no": "125",
+    "question": "Relate the idea of SSI with the complexity of the chip.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "SSI has the least complex chip", "B": "SSI has the most complex chip", "C": "SSI has a moderate level of complexity", "D": "SSI has no relation with the complexity of the chip"},
+    "answer": "A"
+  },
+  {
+    "q_no": "126",
+    "question": "Develop an example of VLSI design concept.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Combinational circuit design", "B": "Single transistor design", "C": "Bipolar Junction Transistor design", "D": "Not any of these."},
+    "answer": "A"
+  },
+  {
+    "q_no": "127",
+    "question": "Infer the behavioral design domain.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "It focuses on the functionality of the system", "B": "It focuses on the physical implementation of the system", "C": "It focuses on the power consumption of the system", "D": "It focuses on the signal propagation of the system"},
+    "answer": "A"
+  },
+  {
+    "q_no": "128",
+    "question": "Choose the number of transistors present in ULSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "1,000 to 10,000", "B": "10,000 to 100,000", "C": "1,000 to 1,000,000", "D": "1,000,000 to 10,000,000"},
+    "answer": "D"
+  },
+  {
+    "q_no": "129",
+    "question": "Compare the difference between behavioral and structural design domains in VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Behavioral design is used for high-level modeling, while structural design is used for low-level modeling", "B": "Behavioral design is used for low-level modeling, while structural design is used for high-level modeling", "C": "Behavioral design is used for functional modeling, while structural design is used for physical modeling", "D": "Behavioral design is used for physical modeling, while structural design is used for functional modeling"},
+    "answer": "C"
+  },
+  {
+    "q_no": "130",
+    "question": "Distinguish behavioral and structural design domains in terms of abstraction levels.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Behavioral design is more abstract than structural design", "B": "Structural design is more abstract than behavioral design", "C": "Both have the same level of abstraction", "D": "Not any of these."},
+    "answer": "A"
+  },
+  {
+    "q_no": "131",
+    "question": "Illustrate the circuit design that can be best illustrated using the structural design domain.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Microprocessors", "B": "Memories", "C": "Counters", "D": "Multiplexers"},
+    "answer": "A"
+  },
+  {
+    "q_no": "132",
+    "question": "Identify the design domain used to create a high-level model of the system.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Behavioral", "B": "Structural", "C": "Both", "D": "None"},
+    "answer": "A"
+  },
+  {
+    "q_no": "133",
+    "question": "Give examples of digital circuits that benefit from regularity in layout.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Op-amps, voltage regulators, and PLLs", "B": "Adders, multipliers, and shift registers", "C": "DACs, ADCs, and filters", "D": "LDOs, DC-DC converters, and power amplifiers"},
+    "answer": "B"
+  },
+  {
+    "q_no": "134",
+    "question": "Discuss the concept of granularity in digital VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "The number of layers in a digital VLSI chip.", "B": "The level of detail at which a digital circuit is designed, implemented, and tested.", "C": "The type of transistors used in a digital VLSI chip.", "D": "The clock frequency of a digital VLSI chip."},
+    "answer": "B"
+  },
+  {
+    "q_no": "135",
+    "question": "Compare and contrast the benefits and drawbacks of regular and irregular layout styles in digital VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Irregular layout can be more area-efficient and easier to design and verify, but may not be as flexible as regular layout. Regular layout can be more flexible and provide better performance, but may be more difficult to design and verify.", "B": "Regular layout can be more area-efficient and easier to design and verify, but may not be as flexible as irregular layout. Irregular layout can be more flexible and provide better performance, but may be more difficult to design and verify.", "C": "Regular and irregular layout styles have the same benefits and drawbacks.", "D": "Regular layout is always better than irregular layout."},
+    "answer": "B"
+  },
+  {
+    "q_no": "136",
+    "question": "Cite the key advantage of using an application-specific integrated circuit (ASIC).",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Low unit cost and short design time.", "B": "High unit cost and long design time.", "C": "Low unit cost and long design time.", "D": "High unit cost and short design time."},
+    "answer": "A"
+  },
+  {
+    "q_no": "137",
+    "question": "Identify the difference between a standard cell ASIC and a gate array ASIC.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "A standard cell ASIC is pre-built, while a gate array ASIC is built from scratch.", "B": "A gate array ASIC is pre-built, while a standard cell ASIC is built from scratch.", "C": "Both types of ASICs are built from scratch.", "D": "Neither type of ASIC is used in digital circuits."},
+    "answer": "B"
+  },
+  {
+    "q_no": "138",
+    "question": "Identify the concept of regularity in digital VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "A design approach where a circuit is composed of unique structures", "B": "A design approach where a circuit is composed of repeating structures", "C": "A design approach where a circuit is composed of a combination of repeating and unique structures", "D": "A design approach where a circuit is composed of randomly generated structures"},
+    "answer": "B"
+  },
+  {
+    "q_no": "139",
+    "question": "Differentiate between regular and irregular layout styles in digital VLSI.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Regular layout uses a more flexible structure, while irregular layout uses a fixed, repeating structure.", "B": "Regular layout uses a fixed, repeating structure, while irregular layout uses a more flexible structure.", "C": "Regular and irregular layout styles are the same thing.", "D": "Regular layout is only used in digital VLSI, while irregular layout is only used in analog VLSI."},
+    "answer": "B"
+  },
+  {
+    "q_no": "140",
+    "question": "Identify the key differences between an ASIC and an FPGA.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Both are used for digital circuits", "B": "ASICs are programmable, but FPGAs are not", "C": "ASICs are not programmable, but FPGAs are", "D": "Both are not used for digital circuits"},
+    "answer": "C"
+  },
+  {
+    "q_no": "141",
+    "question": "Differentiate programmable logic arrays (PLAs) from programmable logic devices (PLDs).",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "PLAs are more complex than PLDs.", "B": "PLDs are more complex than PLAs.", "C": "Both are the same.", "D": "Neither are used in digital circuits."},
+    "answer": "A"
+  },
+  {
+    "q_no": "142",
+    "question": "In what way do field-programmable gate arrays (FPGAs) differ from programmable logic devices (PLDs)?",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "FPGAs can be reprogrammed in the field.", "B": "PLDs can be reprogrammed in the field.", "C": "Both cannot be reprogrammed in the field.", "D": "Neither are used in digital circuits."},
+    "answer": "A"
+  },
+  {
+    "q_no": "143",
+    "question": "Discuss the differences between analog and digital VLSI chips in terms of signal processing.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Analog VLSI chips process continuous signals", "B": "Digital VLSI chips process continuous signals", "C": "Analog VLSI chips process digital signals", "D": "Digital VLSI chips process analog signals"},
+    "answer": "A"
+  },
+  {
+    "q_no": "144",
+    "question": "Restate the purpose of MSI chips in comparison to LSI chips.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "MSI chips have less complexity than LSI chips", "B": "MSI chips have more complexity than LSI chips", "C": "MSI chips and LSI chips have the same purpose", "D": "MSI chips are smaller in size than LSI chips"},
+    "answer": "A"
+  },
+  {
+    "q_no": "145",
+    "question": "Identify the generalization regarding the scale of integration as technology advances.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "The scale of integration decreases as technology advances", "B": "The scale of integration increases as technology advances", "C": "The scale of integration remains constant", "D": "The scale of integration is independent of technology"},
+    "answer": "B"
+  },
+  {
+    "q_no": "146",
+    "question": "Identify the difference between general purpose VLSI chips and application specific integrated circuits (ASIC).",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "General purpose VLSI chips can be used for multiple applications", "B": "ASICs can be used for multiple applications", "C": "General purpose VLSI chips are specialized", "D": "ASICs are more expensive than general purpose VLSI chips"},
+    "answer": "A"
+  },
+  {
+    "q_no": "147",
+    "question": "Identify the difference between the analog and digital VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Analog VLSI design deals with continuous signals, while digital VLSI design deals with discrete signals.", "B": "Analog VLSI design is faster and more power-efficient than digital VLSI design.", "C": "Digital VLSI design is more expensive than analog VLSI design.", "D": "Analog VLSI design is used for memory chips, while digital VLSI design is used for logic circuits."},
+    "answer": "A"
+  },
+  {
+    "q_no": "148",
+    "question": "Relate the concept of granularity to VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Granularity refers to the level of detail in a design, which impacts its complexity and performance.", "B": "Granularity refers to the cost of a VLSI design, which impacts its marketability.", "C": "Granularity refers to the size of a VLSI design, which impacts its manufacturability.", "D": "Granularity refers to the age of a VLSI design, which impacts its reliability."},
+    "answer": "A"
+  },
+  {
+    "q_no": "149",
+    "question": "Compare and contrast SSI and VLSI in terms of the number of transistors used.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "SSI has more transistors than VLSI", "B": "SSI uses fewer transistors than VLSI", "C": "SSI and VLSI use the same number of transistors", "D": "VLSI uses fewer transistors than SSI"},
+    "answer": "B"
+  },
+  {
+    "q_no": "150",
+    "question": "Compare the differences between Moore\\'s Law and Dennard Scaling.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Moore\\'s Law only applies to transistor count, while Dennard Scaling addresses transistor size and power consumption.", "B": "Moore\\'s Law and Dennard Scaling both refer to the transistor count of integrated circuits.", "C": "Moore\\'s Law and Dennard Scaling both focus on the power consumption of integrated circuits.", "D": "Moore\\'s Law and Dennard Scaling are not related to VLSI design concepts."},
+    "answer": "A"
+  },
+  {
+    "q_no": "151",
+    "question": "Predict the implications of Moore\\'s Law on VLSI design in the next decade.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "VLSI designs will continue to increase in size and complexity, leading to higher power consumption and cost.", "B": "VLSI designs will become smaller and more power-efficient, resulting in lower costs and better performance.", "C": "VLSI designs will remain the same, with no significant changes.", "D": "VLSI designs will become more expensive and less power-efficient."},
+    "answer": "A"
+  },
+  {
+    "q_no": "152",
+    "question": "Identify the different levels of design abstraction in VLSI design.",
+    "type": "MCQ",
+    "co": "CO1",
+    "k_level": "K3",
+    "options": {"A": "Physical Design, Circuit Design, and System Design", "B": "RTL Design, Logic Synthesis, and Behavioral Design", "C": "Logic Synthesis, Physical Design, and System Design", "D": "Circuit Design, Physical Design, and Behavioral Design"},
+    "answer": "B"
+  },
+  {
+    "q_no": "153",
+    "question": "Define VLSI design.",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K1",
+    "options": {},
+    "answer": "1. Integrates millions of transistors. 2. Shrinks physical chip size. 3. Enhances processing speed. 4. Lowers power consumption. 5. Reduces manufacturing cost. 6. Enables complex system functionality."
+  },
+  {
+    "q_no": "154",
+    "question": "Describe Moor's Law.",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Transistor density doubles periodically. 2. Cycle is typically 18 to 24 months. 3. Decreases cost per logic gate. 4. Improves computational performance. 5. Drives semiconductor industry roadmaps. 6. Faces physical scaling limitations today."
+  },
+  {
+    "q_no": "155",
+    "question": "Enumerate the different types of VLSI chips.",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Digital ICs. 2. Analog ICs. 3. Mixed-Signal ICs. 4. Application-Specific ICs (ASICs). 5. Field Programmable Gate Arrays (FPGAs). 6. Memory modules like DRAM and Flash."
+  },
+  {
+    "q_no": "156",
+    "question": "Identify the basic idea behind SSI.",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Stands for Small Scale Integration. 2. First major step in IC development. 3. Contains 1 to 10 logic gates. 4. Roughly up to 100 transistors per chip. 5. Used for basic logic functions. 6. Precursor to modern dense VLSI chips."
+  },
+  {
+    "q_no": "157",
+    "question": "Identify the basic idea behind MSI.",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Stands for Medium Scale Integration. 2. Contains 10 to 100 logic gates. 3. Transistor count from 100 to 1,000. 4. Enabled building distinct subsystems. 5. Used for multiplexers and decoders. 6. Bridged the gap between SSI and LSI."
+  },
+  {
+    "q_no": "158",
+    "question": "Differentiate between analog and digital VLSI design.",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Analog uses continuous voltages. 2. Digital uses discrete binary levels. 3. Analog handles real-world sensors. 4. Digital focuses on Boolean logic. 5. Analog is sensitive to electrical noise. 6. Digital designs are highly automated via CAD."
+  },
+  {
+    "q_no": "159",
+    "question": "illustrate VLSI chips influence in modern technology",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Enables compact smartphones. 2. Powers massive cloud data centers. 3. Drives advancements in AI processors. 4. Makes wearable tech possible. 5. Facilitates autonomous vehicle logic. 6. Reduces global electronics cost."
+  },
+  {
+    "q_no": "160",
+    "question": "Explain the factors influence chip design",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Target power consumption limits. 2. Required clock speed/performance. 3. Available physical silicon area. 4. Expected manufacturing yield. 5. Heat dissipation requirements. 6. Overall project budget and schedule."
+  },
+  {
+    "q_no": "161",
+    "question": "Explain, how does Moore's Law impact transistor size",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Dictates constant feature shrinking. 2. Pushes nodes to nanometer scales. 3. Reduces channel length. 4. Thins gate oxide layers. 5. Introduces quantum tunneling issues. 6. Forces adoption of 3D FinFETs."
+  },
+  {
+    "q_no": "162",
+    "question": "Discuss the advantages of VLSI chips over earlier technologies.",
+    "type": "Short  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Exponentially smaller footprint. 2. Vastly superior operating speeds. 3. Dramatically lower power draw. 4. Higher mass-production reliability. 5. Lower per-unit manufacturing cost. 6. Integration of complex subsystems."
+  },
+  {
+    "q_no": "163",
+    "question": "Describe the key stages involved in Silicon Semiconductor Technology.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Raw crystal ingot growth. 2. Slicing ingots into wafers. 3. Wafer polishing and cleaning. 4. Photolithography patterning. 5. Chemical or plasma etching. 6. Ion doping and final metallization."
+  },
+  {
+    "q_no": "164",
+    "question": "Explain the wafer processing steps in VLSI fabrication with suitable diagrams.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Initial wafer chemical clean. 2. Thermal oxide layer growth. 3. Photoresist coating and UV exposure. 4. Etching exposed target layers. 5. Implantation of active dopants. 6. Depositing conductive metal lines."
+  },
+  {
+    "q_no": "165",
+    "question": "Illustrate the oxidation process in semiconductor manufacturing and discuss its importance.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Heats silicon in oxygen ambient. 2. Forms silicon dioxide (SiO2). 3. Serves as excellent electrical insulator. 4. Protects against surface contamination. 5. Acts as an effective doping mask. 6. Critical for forming MOSFET gates."
+  },
+  {
+    "q_no": "166",
+    "question": "Compare and contrast ion implantation and diffusion techniques used in doping.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Implantation fires ions directly. 2. Diffusion uses high-heat gas ambient. 3. Implantation allows precise depth control. 4. Diffusion is cheaper but less precise. 5. Implantation causes lattice damage. 6. Diffusion spreads isotropically."
+  },
+  {
+    "q_no": "167",
+    "question": "Discuss the role of photolithography in VLSI fabrication and differentiate between positive and negative photoresists.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Transfers circuit layouts to wafers. 2. Uses UV light through a photomask. 3. Positive resist softens under light. 4. Negative resist hardens under light. 5. Positive allows finer feature resolution. 6. Crucial for defining nanometer gates."
+  },
+  {
+    "q_no": "168",
+    "question": "Summarize the basic CMOS fabrication steps and explain the differences between n-well and p-well processes.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Select base substrate type. 2. N-well puts PMOS in an n-type pool. 3. P-well puts NMOS in a p-type pool. 4. Form gate oxide and poly-silicon. 5. Dope the respective source/drain. 6. Apply metal interconnect contacts."
+  },
+  {
+    "q_no": "169",
+    "question": "Examine the twin-tub CMOS process and its advantages over traditional CMOS processes.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K3",
+    "options": {},
+    "answer": "1. Uses both n-wells and p-wells. 2. Built on high-resistivity substrate. 3. Independently tunes transistor performance. 4. Prevents asymmetrical device degradation. 5. Minimizes hazardous latch-up conditions. 6. Requires more complex masking steps."
+  },
+  {
+    "q_no": "170",
+    "question": "Interpret the concept of layout design rules in VLSI and demonstrate the use of stick diagrams with examples.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K3",
+    "options": {},
+    "answer": "1. Defines minimum width and spacing. 2. Prevents short circuits in manufacturing. 3. Ensures reliable chip fabrication. 4. Stick diagrams abstract physical layouts. 5. Color-codes diffusion, poly, and metal. 6. Simplifies complex topological planning."
+  },
+  {
+    "q_no": "171",
+    "question": "Differentiate between Ion Implantation and Diffusion in Semiconductor Fabrication.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K3",
+    "options": {},
+    "answer": "1. Implantation is physical acceleration. 2. Diffusion relies on thermal movement. 3. Implantation offers strict dose control. 4. Diffusion is less damaging to crystals. 5. Implantation operates at lower temperatures. 6. Diffusion is prone to lateral spread."
+  },
+  {
+    "q_no": "172",
+    "question": "Illustrate the Steps Involved in the n-Well CMOS Fabrication Process with a Stick Diagram.",
+    "type": "Short  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Begin with p-type silicon substrate. 2. Define n-well region for PMOS. 3. Grow active area field oxide. 4. Deposit and pattern polysilicon gates. 5. Implant n+ and p+ source/drain. 6. Add metal routing layers."
+  },
+  {
+    "q_no": "173",
+    "question": "List the differences between Full Custom and Semi-Custom VLSI Design.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Full custom designs every transistor. 2. Semi-custom uses pre-designed blocks. 3. Full custom maximizes performance/area. 4. Semi-custom slashes design time. 5. Full custom is very expensive. 6. Semi-custom is standard for modern ASICs."
+  },
+  {
+    "q_no": "174",
+    "question": "Explain the concept of Standard Cell Design and its advantages.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Uses pre-verified logic gate layouts. 2. Cells have uniform physical heights. 3. Placed in structured rows on chip. 4. Automates the layout process. 5. Greatly accelerates time-to-market. 6. Reduces functional design errors."
+  },
+  {
+    "q_no": "175",
+    "question": "Describe the role of Cell Libraries in VLSI Design.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Acts as a database of logic gates. 2. Contains electrical timing models. 3. Includes physical layout geometry. 4. Provides power dissipation metrics. 5. Essential for automated logic synthesis. 6. Dictates the final chip performance limits."
+  },
+  {
+    "q_no": "176",
+    "question": "Discuss the various FPGA Building Block Architectures and their functionalities.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Configurable Logic Blocks (CLBs) execute math. 2. Look-Up Tables (LUTs) store truth tables. 3. Programmable Interconnects route signals. 4. I/O Blocks interface external pins. 5. Block RAM provides fast local storage. 6. DSP slices handle complex arithmetic."
+  },
+  {
+    "q_no": "177",
+    "question": "Illustrate the workflow of Standard Cell-based ASIC design with a suitable diagram.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. RTL coding in Verilog/VHDL. 2. Logic synthesis into a gate netlist. 3. Floorplanning to allocate physical space. 4. Automated placement of standard cells. 5. Clock tree synthesis for synchronization. 6. Final wire routing and verification."
+  },
+  {
+    "q_no": "178",
+    "question": "Contrast the design methodologies of FPGA and ASIC in terms of flexibility, cost, and performance.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. FPGAs are highly flexible post-fabrication. 2. ASICs are permanent and rigid. 3. FPGAs have zero NRE masking costs. 4. ASICs are cheaper in high volume. 5. ASICs are significantly faster. 6. ASICs consume much less power."
+  },
+  {
+    "q_no": "179",
+    "question": "Contrast the key steps involved in FPGA implementation and configuration.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Design entry using HDL. 2. Logic synthesis generates mapped logic. 3. Place and Route maps to specific CLBs. 4. Timing analysis ensures speed limits. 5. Bitstream generation encodes the design. 6. Configuration loads bitstream into SRAM."
+  },
+  {
+    "q_no": "180",
+    "question": "List the advantages and disadvantages of CMOS technology.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K1",
+    "options": {},
+    "answer": "1. Pro: Nearly zero static power. 2. Pro: High immunity to noise. 3. Pro: Easily scalable physical size. 4. Con: Slower than specialized BJT logic. 5. Con: Susceptible to destructive latch-up. 6. Con: Dynamic power spikes at high frequencies."
+  },
+  {
+    "q_no": "181",
+    "question": "Recite the characteristics of a CMOS inverter.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Consists of one PMOS and one NMOS. 2. Provides full rail-to-rail output voltage. 3. Extremely sharp voltage transfer curve. 4. Zero current flows in steady state. 5. Symmetrical noise margins are possible. 6. Fundamental building block of all logic."
+  },
+  {
+    "q_no": "182",
+    "question": "Outline the working principle of a CMOS NAND gate.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. PMOS transistors are wired in parallel. 2. NMOS transistors are wired in series. 3. If any input is low, PMOS pulls output high. 4. All inputs high turns on all NMOS. 5. NMOS chain pulls output to ground. 6. Preferred over NOR due to faster NMOS speed."
+  },
+  {
+    "q_no": "183",
+    "question": "Define CMOS logic circuits and their significance in VLSI design.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K1",
+    "options": {},
+    "answer": "1. Uses Complementary MOS transistors. 2. Pairs p-type and n-type devices. 3. Defines logic levels unambiguously. 4. Significance: Enables massive integration. 5. Significance: Solves historical heat issues. 6. Industry standard for modern processors."
+  },
+  {
+    "q_no": "184",
+    "question": "Name the different types of CMOS logic styles used in digital circuits.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K1",
+    "options": {},
+    "answer": "1. Static CMOS (standard pull-up/down). 2. Dynamic CMOS (clocked evaluation). 3. Domino Logic (cascaded dynamic). 4. Pass-Transistor Logic (reduced area). 5. Transmission Gate Logic. 6. Pseudo-NMOS (fast but draws static power)."
+  },
+  {
+    "q_no": "185",
+    "question": "Explain the operation of CMOS transmission gate.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K1",
+    "options": {},
+    "answer": "1. Parallel connection of NMOS and PMOS. 2. Controlled by complementary clock signals. 3. Acts as an ideal bidirectional switch. 4. Passes strong 1s and strong 0s. 5. Eliminates threshold voltage drops. 6. Used in efficient multiplexer designs."
+  },
+  {
+    "q_no": "186",
+    "question": "Quote the key differences between static and dynamic CMOS logic.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Static needs 2N transistors; dynamic needs N+2. 2. Static output is always driven. 3. Dynamic relies on temporary capacitive storage. 4. Dynamic requires synchronized clock phases. 5. Dynamic is faster and uses less space. 6. Static is immune to charge leakage."
+  },
+  {
+    "q_no": "187",
+    "question": "Recall the role of transmission gates in CMOS circuits.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Serves as a voltage-controlled switch. 2. Passes full logic levels without degradation. 3. Simplifies complex logic equations. 4. Reduces overall transistor counts. 5. Essential for building D-flip-flops. 6. Used extensively in arithmetic circuits."
+  },
+  {
+    "q_no": "188",
+    "question": "Identify the working mechanism of a CMOS full adder.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Accepts two bits and one carry-in. 2. Computes the Sum using XOR logic. 3. Computes Carry-out using majority logic. 4. Built using complex pull-up/down networks. 5. Can be optimized using transmission gates. 6. Cascaded to form multi-bit ripple adders."
+  },
+  {
+    "q_no": "189",
+    "question": "Label the key components of an SR latch circuit.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Set (S) input to force logic 1. 2. Reset (R) input to force logic 0. 3. Cross-coupled logic gates (NOR or NAND). 4. Q output representing current state. 5. Q-bar representing inverted state. 6. Feedback loop providing memory retention."
+  },
+  {
+    "q_no": "190",
+    "question": "Recognize the advantages of edge-triggered flip-flops over level-triggered latches.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Sample data only at specific clock edges. 2. Prevents data transparency issues. 3. Highly immune to input noise mid-cycle. 4. Simplifies synchronous system timing. 5. Avoids critical race conditions. 6. Foundation of reliable pipelined processors."
+  },
+  {
+    "q_no": "191",
+    "question": "Describe the construction and working of a master-slave JK flip-flop.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Contains two cascaded latch stages. 2. Master latch catches data on clock high. 3. Slave latch updates output on clock low. 4. Prevents invalid continuous toggling. 5. Resolves the \"race-around\" condition. 6. J and K inputs provide Set, Reset, and Toggle."
+  },
+  {
+    "q_no": "192",
+    "question": "Explain the behavior of a CMOS D-latch and its applications.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Data (D) passes to Q when clock is active. 2. Holds previous Q when clock is inactive. 3. Built efficiently using transmission gates. 4. Acts as a temporary memory buffer. 5. Used in synchronization circuits. 6. Building block for edge-triggered registers."
+  },
+  {
+    "q_no": "193",
+    "question": "Summarize the key performance metrics of sequential CMOS circuits.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Setup time: stable input before clock edge. 2. Hold time: stable input after clock edge. 3. Clock-to-Q delay: time to output update. 4. Maximum clock frequency threshold. 5. Dynamic switching power dissipation. 6. Susceptibility to clock skew errors."
+  },
+  {
+    "q_no": "194",
+    "question": "Contrast the differences between NAND and NOR logic gates in CMOS design.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. NAND uses series NMOS; NOR uses series PMOS. 2. NMOS mobility is higher than PMOS. 3. NAND is inherently faster due to this. 4. NAND requires less physical layout area. 5. NOR suffers from slower rise times. 6. NAND is universally preferred in VLSI cells."
+  },
+  {
+    "q_no": "195",
+    "question": "Illustrate the functioning of a clocked JK latch with a timing diagram.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K3",
+    "options": {},
+    "answer": "1. Responds to inputs only when clock is high. 2. J=1, K=0 sets output Q to 1. 3. J=0, K=1 resets output Q to 0. 4. J=1, K=1 toggles output continuously. 5. J=0, K=0 holds the previous state. 6. Susceptible to race conditions during long clocks."
+  },
+  {
+    "q_no": "196",
+    "question": "Classify the different types of CMOS logic circuits and justify their advantages over traditional MOS logic.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Static CMOS provides zero static power. 2. Dynamic CMOS provides high-speed operation. 3. Pass-transistor logic minimizes area. 4. Domino logic combines speed and stability. 5. Older NMOS logic drew constant standby current. 6. CMOS provides perfect output voltage swings."
+  },
+  {
+    "q_no": "197",
+    "question": "Analyze the working principle of a CMOS inverter and illustrate its characteristics with a proper diagram.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. PMOS pulls up to VDD on logic 0 input. 2. NMOS pulls down to ground on logic 1 input. 3. Voltage transfer curve is nearly vertical. 4. Exhibits extremely sharp switching thresholds. 5. Noise margins are wide and symmetrical. 6. Short-circuit current flows only during transition."
+  },
+  {
+    "q_no": "198",
+    "question": "Compare and contrast NAND and NOR gate implementations in CMOS logic circuits with respect to power consumption, delay, and complexity.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Complexity is equal (4 transistors for 2-input). 2. NAND delay is lower due to fast series NMOS. 3. NOR delay is high due to slow series PMOS. 4. NAND PMOS sizing is smaller, saving area. 5. Power consumption is similar but NAND has less capacitance. 6. VLSI libraries overwhelmingly favor NAND."
+  },
+  {
+    "q_no": "199",
+    "question": "Evaluate the role of Transmission Gates in CMOS circuits and defend their usage in designing efficient multiplexers and logic circuits.",
+    "type": "Short  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Replaces bulky multi-gate logic combinations. 2. Halves the transistor count for multiplexers. 3. Avoids the Vth drop of single pass transistors. 4. Speeds up data propagation significantly. 5. Reduces overall dynamic power consumption. 6. Ideal for building compact SRAM cells."
+  },
+  {
+    "q_no": "200",
+    "question": "Compare and contrast Full Custom and Semi-Custom VLSI design methodologies. Discuss their advantages, disadvantages, and applications.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Full custom involves manual polygon-level layout. 2. Semi-custom relies on pre-tested cell libraries. 3. Full custom yields maximum possible speed. 4. Semi-custom slashes development time by months. 5. Full custom is for high-volume CPUs. 6. Semi-custom is standard for general ASICs."
+  },
+  {
+    "q_no": "201",
+    "question": "Analyze the FPGA building block architectures and justify their importance in modern VLSI design. Provide detailed examples to support your argument.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. CLBs provide flexible, parallel logic execution. 2. Interconnect matrix allows arbitrary wiring. 3. Hardware reconfigurability extends product lifespan. 4. Vital for AI prototyping before ASIC tapeout. 5. Example: Accelerating specific cryptographic hashes. 6. Eliminates million-dollar mask fabrication costs."
+  },
+  {
+    "q_no": "202",
+    "question": "Identify the key design challenges in Full Custom and Semi-Custom VLSI Design.",
+    "type": "Short  (Text)",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Full Custom: Extreme layout complexity. 2. Full Custom: High risk of human error. 3. Full Custom: Protracted design cycles. 4. Semi-Custom: Sub-optimal area utilization. 5. Semi-Custom: Harder to achieve absolute peak frequency. 6. Both: Managing power integrity and heat dissipation."
+  },
+  {
+    "q_no": "203",
+    "question": "Describe the different types of VLSI chips and their applications.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Digital ICs process logic for computing. 2. Analog ICs handle continuous RF signals. 3. Mixed-Signal ICs bridge digital and analog worlds. 4. ASICs are custom-built for dedicated tasks. 5. FPGAs are reconfigurable for rapid prototyping. 6. Memory chips (DRAM/Flash) store vast data. 7. SoCs integrate entire systems on one die. 8. DSPs perform rapid mathematical signal changes. 9. Crucial for mobile phones and smart devices. 10. Essential for automotive engine controllers."
+  },
+  {
+    "q_no": "204",
+    "question": "Explain the different scales of integration in VLSI technology and their significance.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. SSI (Small): Basic gates, 1-10 per chip. 2. MSI (Medium): Multiplexers, 10-100 gates. 3. LSI (Large): Early microprocessors, 1k-10k gates. 4. VLSI (Very Large): Millions of transistors, modern CPUs. 5. ULSI (Ultra Large): Billions of transistors. 6. Integration lowers per-transistor cost dramatically. 7. Miniaturization allows portable battery-powered devices. 8. Shorter interconnects increase computing speeds. 9. Fewer external connections improve system reliability. 10. Defines the historical roadmap of the tech industry."
+  },
+  {
+    "q_no": "205",
+    "question": "Compare and contrast the behavioral and structural design domains in VLSI design.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Behavioral defines 'what' the circuit does. 2. Structural defines 'how' it is physically connected. 3. Behavioral uses high-level code (like C/SystemVerilog). 4. Structural uses specific gate-level netlists. 5. Behavioral is easier for humans to conceptualize. 6. Structural maps directly to silicon layout. 7. Synthesis tools convert behavioral to structural. 8. Behavioral focuses on algorithms and math. 9. Structural focuses on wires, gates, and timing. 10. Both are essential steps in standard ASIC flows."
+  },
+  {
+    "q_no": "206",
+    "question": "Examine the impact of Moore\u2019s Law on VLSI design and future trends.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Dictates that transistor counts double biannually. 2. Drives relentless feature size miniaturization. 3. Forces the development of advanced lithography (EUV). 4. Lowers the cost of consumer electronics. 5. Increases power density, causing thermal issues. 6. Mandates the shift from planar to 3D FinFETs. 7. Future trends point toward Gate-All-Around (GAA). 8. Approaching fundamental atomic-level physical limits. 9. Shifts focus to multi-chip packaging (chiplets). 10. Encourages research into quantum and optical computing."
+  },
+  {
+    "q_no": "207",
+    "question": "Analyze the impact of Moore\\'s Law on the evolution of VLSI technology and the limitations and future prospects of this law in modern semiconductor advancements.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Initiated rapid scaling of digital electronics. 2. Enabled the smartphone and internet revolution. 3. Consistently reduced the price-per-computation. 4. Limitation: Quantum tunneling causes severe leakage. 5. Limitation: Extreme heat dissipation challenges. 6. Limitation: Astronomical cost of new fabrication plants. 7. Future: Utilizing advanced 3D packaging technologies. 8. Future: Moving to novel materials like Graphene. 9. Future: Adopting specialized hardware (AI accelerators). 10. The economic aspect of the law is heavily slowing down."
+  },
+  {
+    "q_no": "208",
+    "question": "Categorize the different types of VLSI chips based on their functionality and applications with examples of each type and discuss their significance.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. General Purpose CPUs (e.g., Intel Core) for computing. 2. ASICs (e.g., Bitcoin miners) for max efficiency. 3. Memory ICs (e.g., Samsung NAND) for data retention. 4. DSPs (e.g., Audio decoders) for real-time math. 5. FPGAs (e.g., Xilinx Virtex) for hardware emulation. 6. Mixed-Signal (e.g., ADCs) for reading physical sensors. 7. RF ICs (e.g., Wi-Fi modules) for communication. 8. SoCs (e.g., Apple Silicon) combining all above. 9. Significance: Drives distinct industry specializations. 10. Significance: Enables optimized solutions for power vs speed."
+  },
+  {
+    "q_no": "209",
+    "question": "Compare SSI, MSI, LSI, VLSI, and ULSI in terms of scale of integration, functionality, and applications and how has the transition between these stages influenced modern circuit design",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. SSI: <100 transistors, basic logic gates. 2. MSI: <1000 transistors, counters/multiplexers. 3. LSI: <10k transistors, early microprocessors. 4. VLSI: Millions of transistors, complex SoCs. 5. ULSI: Billions of transistors, modern multicore CPUs. 6. Transition forced a move from manual to automated design. 7. Drastically increased clock frequencies. 8. Shifted bottlenecks from gates to wire interconnects. 9. Made power efficiency the primary design constraint. 10. Culminated in ubiquitous, low-cost smart devices."
+  },
+  {
+    "q_no": "210",
+    "question": "Critique the use of FPGA versus ASIC in VLSI design with their advantages, disadvantages, and best use cases for each",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. FPGAs offer immediate reconfigurability. 2. FPGAs have low upfront development costs. 3. FPGAs are slower and consume more power. 4. Best use for FPGA: low-volume products and prototyping. 5. ASICs are physically hardwired for one task. 6. ASICs deliver maximum possible performance. 7. ASICs have massive initial masking costs (NRE). 8. Best use for ASIC: high-volume consumer electronics. 9. FPGAs reduce time-to-market significantly. 10. Transitioning from FPGA to ASIC is a common product lifecycle."
+  },
+  {
+    "q_no": "211",
+    "question": "Differentiate between Analog and Digital VLSI chips with the highlight their design challenges, performance factors, and application areas.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Analog processes continuous physical voltages. 2. Digital processes distinct binary 1s and 0s. 3. Analog is heavily susceptible to thermal noise. 4. Digital has built-in noise margins for reliability. 5. Analog requires meticulous manual physical layout. 6. Digital layout is highly automated by synthesis tools. 7. Analog is vital for ADCs, DACs, and radio transceivers. 8. Digital is vital for processors and control logic. 9. Analog scaling is difficult and doesn't benefit much from Moore's Law. 10. Digital scales perfectly, allowing massive transistor density."
+  },
+  {
+    "q_no": "212",
+    "question": "Evaluate the importance of design principles such as Regularity and Granularity in Digital VLSI design and the contribution to optimized performance and manufacturability.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Regularity involves reusing standard circuit blocks. 2. Simplifies the design of complex billion-gate chips. 3. Reduces the likelihood of manual layout errors. 4. Enhances manufacturing yield through predictable patterns. 5. Granularity determines the size of these reusable blocks. 6. High granularity (small gates) allows fine-tuned optimization. 7. Low granularity (large modules) speeds up layout time. 8. Balancing them minimizes interconnect delays. 9. Vital for standard-cell methodology in ASICs. 10. Lowers overall design cost and time-to-market."
+  },
+  {
+    "q_no": "213",
+    "question": "Infer the role of different design domains (Behavioral, Structural, and Physical) in VLSI and how these domains integrate to form a complete chip design.",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Form the Y-chart of VLSI design methodologies. 2. Behavioral describes algorithmic function (e.g., C code). 3. Structural defines interconnected logic components. 4. Physical maps structures to actual silicon geometries. 5. Starts at behavioral to verify mathematical correctness. 6. Synthesized into structural gate-level netlists. 7. Placed and routed in the physical domain. 8. Physical domain accounts for actual wire delays. 9. Integration ensures design meets speed and area goals. 10. Back-annotation checks physical realities against behavioral intent."
+  },
+  {
+    "q_no": "214",
+    "question": "Justify the need for Programmable Logic Devices (PLD) such as PLA and FPGA in modern electronics and how do they compare to fixed logic devices in terms of flexibility and efficiency?",
+    "type": "Long  (Text)",
+    "co": "CO1",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Enable hardware updates after deployment. 2. Mitigate risk of costly ASIC design flaws. 3. PLAs provide simple, fast sum-of-products logic. 4. FPGAs handle complex, parallel processing tasks. 5. Highly flexible compared to rigid fixed-logic ASICs. 6. Allow rapid response to changing industry standards. 7. Less power-efficient than fixed logic. 8. Occupy more physical silicon area per logic function. 9. Eliminate non-recurring engineering (NRE) costs. 10. Crucial for aerospace where remote updates are necessary."
+  },
+  {
+    "q_no": "215",
+    "question": "Discuss the different CMOS fabrication processes, including the n-well, p-well, twin-tub, and silicon-on-insulator (SOI) processes and explain the advantages and disadvantages of each approach",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. N-well is simple, optimized for PMOS performance. 2. P-well favors NMOS, historically used in older tech. 3. Twin-tub allows independent doping of both wells. 4. Twin-tub optimizes both transistor types simultaneously. 5. Twin-tub disadvantage: requires complex mask alignment. 6. SOI places transistors on an insulating oxide layer. 7. SOI dramatically lowers parasitic capacitance for high speed. 8. SOI minimizes latch-up and leakage current. 9. SOI disadvantage: much higher wafer manufacturing costs. 10. Choice depends on target speed, budget, and power constraints."
+  },
+  {
+    "q_no": "216",
+    "question": "Explain a detailed step-by-step plan for the photolithography process in VLSI fabrication and explain how positive and negative photoresists influence pattern formation",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Wafer is cleaned and prepped with an adhesion promoter. 2. Spin-coating applies uniform photoresist layer. 3. Soft bake removes solvents from the resist. 4. Alignment of glass photomask over the wafer. 5. UV light exposure transfers the geometric pattern. 6. Positive resist weakens under UV, washes away in developer. 7. Negative resist hardens under UV, unexposed areas wash away. 8. Hard bake solidifies the remaining pattern for etching. 9. Positive resist allows for finer, sharper resolutions. 10. Final step strips remaining resist after etching is complete."
+  },
+  {
+    "q_no": "217",
+    "question": "Contrast the advantages and disadvantages of Silicon Semiconductor Technology over other semiconductor materials.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Advantage: Silicon is extremely abundant and cheap. 2. Advantage: Grows high-quality, stable insulating oxides (SiO2). 3. Advantage: Well-established global manufacturing infrastructure. 4. Advantage: Functions reliably at standard room temperatures. 5. Disadvantage: Lower electron mobility compared to GaAs. 6. Disadvantage: Cannot emit light (indirect bandgap), useless for LEDs. 7. Disadvantage: Hits severe thermal limits at very high frequencies. 8. Alternative: Silicon Carbide (SiC) handles much higher voltages. 9. Alternative: Gallium Nitride (GaN) handles high-power RF better. 10. Silicon remains dominant due to unbeatable cost-to-performance ratio."
+  },
+  {
+    "q_no": "218",
+    "question": "Connect the different steps involved in wafer processing and explain their significance.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Ingot growth ensures single-crystal lattice perfection. 2. Wafer slicing provides the flat physical foundation. 3. Oxidation creates vital dielectric insulators. 4. Lithography dictates the precise geometry of circuits. 5. Etching removes unwanted material to shape structures. 6. Doping (Implantation) establishes electrical conductivity. 7. Deposition (CVD) builds necessary vertical layers. 8. Planarization (CMP) keeps surfaces flat for stacking. 9. Metallization wires billions of transistors together. 10. Each sequential step relies entirely on the precision of the last."
+  },
+  {
+    "q_no": "219",
+    "question": "Relate oxidation processes with the improvement of device performance in VLSI technology.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Thermal oxidation produces high-quality Silicon Dioxide. 2. Acts as a flawless gate dielectric for MOSFETs. 3. Thinner gate oxides dramatically increase switching speeds. 4. Provides excellent surface passivation, reducing defects. 5. Isolates adjacent transistors to prevent crosstalk. 6. Serves as a hard mask during harsh ion implantation. 7. Enhances long-term reliability by sealing out moisture. 8. High-K dielectrics have replaced SiO2 to stop quantum leakage. 9. Precise oxidation control directly dictates threshold voltages. 10. Foundational to the success and scaling of CMOS technology."
+  },
+  {
+    "q_no": "220",
+    "question": "Illustrate the role of epitaxial deposition in semiconductor fabrication with a detailed diagram.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Epitaxy grows a new crystalline layer on the wafer. 2. New layer matches the exact crystal structure of substrate. 3. Provides a highly pure, defect-free active region. 4. Allows different doping levels than the bulk wafer. 5. Crucial for creating heavily doped buried layers. 6. Helps prevent latch-up in modern CMOS designs. 7. Used extensively in BiCMOS and high-power devices. 8. Requires precise temperature and gas flow control (CVD). 9. Enhances electrical performance of the final transistor. 10. Acts as the pristine canvas for subsequent lithography."
+  },
+  {
+    "q_no": "221",
+    "question": "Differentiate between ion implantation and diffusion techniques in semiconductor doping.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Implantation shoots ions mechanically into the silicon. 2. Diffusion uses high heat to let dopants soak in. 3. Implantation allows exact calculation of dopant dosage. 4. Diffusion dosage depends heavily on time and temperature. 5. Implantation controls depth precisely via voltage. 6. Diffusion spreads laterally under masks, reducing sharpness. 7. Implantation is performed at safe room temperatures. 8. Implantation damages the crystal lattice, requiring annealing. 9. Diffusion naturally heals the lattice during the high-heat process. 10. Implantation is the standard for sub-micron VLSI precision."
+  },
+  {
+    "q_no": "222",
+    "question": "Devise a step-by-step process for fabricating CMOS devices using the n-well and p-well approaches.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Start with bare p-type silicon wafer (for n-well). 2. Grow oxide and pattern the n-well region. 3. Implant phosphorus to create the deep n-well. 4. Strip oxide and grow active gate oxide layer. 5. Deposit polysilicon and etch to form transistor gates. 6. Mask n-well to implant n+ source/drain in p-substrate. 7. Mask p-substrate to implant p+ source/drain in n-well. 8. Deposit thick insulating glass (BPSG) over the entire wafer. 9. Etch contact holes down to the silicon terminals. 10. Sputter aluminum/copper and etch to form interconnect wiring."
+  },
+  {
+    "q_no": "223",
+    "question": "Criticize the impact of photolithography resolution limits on modern VLSI fabrication.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Light wavelength dictates minimum feature sizes. 2. Deep UV (193nm) hit a hard limit for modern nodes. 3. Forced reliance on complex multi-patterning techniques. 4. Multi-patterning drastically increases wafer costs and time. 5. Imperfect alignment causes yield-destroying edge placement errors. 6. Necessitated the shift to Extreme UV (EUV) at 13.5nm. 7. EUV machines are astronomically expensive and massive. 8. Requires vacuum environments as air absorbs EUV light. 9. Slows down the economic viability of Moore's Law. 10. Forces designers to find architectural workarounds for speed."
+  },
+  {
+    "q_no": "224",
+    "question": "Prioritize layout design rules in CMOS circuit design and explain their importance in ensuring functionality and reliability.",
+    "type": "Long  (Text)",
+    "co": "CO2",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Minimum Width Rule: Ensures wires don't break during etching. 2. Minimum Spacing Rule: Prevents electrical shorts between traces. 3. Enclosure Rule: Ensures contacts stay within active areas. 4. Extension Rule: Prevents source/drain from bridging the gate. 5. Rules account for microscopic photolithographic misalignment. 6. Scalable rules (Lambda based) allow easy tech node porting. 7. Violating rules guarantees a dead or defective chip. 8. Critical for automated Design Rule Checking (DRC) software. 9. Maximizes wafer yield, saving millions in manufacturing. 10. Balances extreme miniaturization with physical manufacturing limits."
+  },
+  {
+    "q_no": "225",
+    "question": "Explain the working of a CMOS Inverter with a neat diagram. Discuss its voltage transfer characteristics and noise margins in detail. Additionally, illustrate how the switching threshold is determined and how different parameters affect its performance.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Consists of a PMOS pull-up and NMOS pull-down. 2. Input 0 turns PMOS on, pulling output to VDD. 3. Input 1 turns NMOS on, pulling output to Ground. 4. VTC curve shows output voltage vs input voltage. 5. Region 1 & 5: One transistor fully on, one fully off. 6. Region 3: Both in saturation, rapid voltage transition. 7. Noise margins determine immunity to signal degradation. 8. Switching threshold (Vth) is ideally VDD/2. 9. Vth is determined by the width/length ratio of the transistors. 10. Wider NMOS lowers Vth; wider PMOS raises Vth."
+  },
+  {
+    "q_no": "226",
+    "question": "Describe the design and working of a CMOS Full Adder circuit. Discuss the different logic styles that can be used for implementing a full adder in CMOS technology. Compare the advantages and disadvantages of each design in terms of power consumption, speed, and area.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Full adder adds A, B, and Carry-in to yield Sum and Carry-out. 2. Standard Static CMOS requires 28 transistors. 3. Static CMOS advantage: High reliability and zero static power. 4. Static CMOS disadvantage: Large silicon area requirement. 5. Transmission Gate Adder requires only ~20 transistors. 6. TG Adder advantage: Faster propagation and smaller area. 7. Dynamic CMOS Adder offers extremely high switching speeds. 8. Dynamic advantage: Smaller pull-up networks. 9. Dynamic disadvantage: Requires complex clock routing and power. 10. Selection depends entirely on balancing CPU speed vs area."
+  },
+  {
+    "q_no": "227",
+    "question": "Classify the different types of MOS transistors and explain their characteristics in detail.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Enhancement-mode NMOS: Normally off, needs positive gate voltage. 2. Enhancement-mode PMOS: Normally off, needs negative gate voltage. 3. Depletion-mode NMOS: Normally on, needs negative voltage to stop. 4. NMOS carriers are electrons, which move very fast. 5. PMOS carriers are holes, which move slower than electrons. 6. Because of mobility, PMOS must be physically wider than NMOS. 7. NMOS is excellent at pulling signals to Ground (strong 0). 8. PMOS is excellent at pulling signals to VDD (strong 1). 9. Combining them creates Complementary MOS (CMOS). 10. Modern iterations include 3D FinFETs for better channel control."
+  },
+  {
+    "q_no": "228",
+    "question": "Break down the working principles of a CMOS inverter and analyze its voltage transfer characteristics.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. VTC is a plot of V_out against V_in. 2. Cutoff: V_in is low, NMOS is off, PMOS is linear (V_out = High). 3. Linear/Saturation: As V_in rises, NMOS turns on, fighting PMOS. 4. Transition: Both transistors are saturated, V_out drops sharply. 5. Saturation/Linear: V_in high, PMOS turns off, NMOS linear. 6. Sharp transition indicates high gain and definitive logic states. 7. Symmetry of the curve is achieved by sizing PMOS 2x wider. 8. Noise Margin High (NMH) protects against voltage drops. 9. Noise Margin Low (NML) protects against ground bounces. 10. Ideal VTC resembles a perfect square step function."
+  },
+  {
+    "q_no": "229",
+    "question": "Categorize the various CMOS logic circuits and compare their performance metrics.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Static CMOS: Best noise margin, zero static power, slow large area. 2. Dynamic CMOS: High speed, low area, needs clocking, vulnerable to noise. 3. Pass-Transistor Logic: Low power, minimal area, suffers threshold drops. 4. Transmission Gates: Perfect logic levels, requires complementary signals. 5. Domino Logic: Cascaded dynamic logic, prevents race conditions, fast. 6. Pseudo-NMOS: Fast, small area, but draws constant static power. 7. Performance metric: Speed (Dynamic wins, Static loses). 8. Performance metric: Power (Static wins, Pseudo-NMOS loses). 9. Performance metric: Area (Pass-Transistor wins, Static loses). 10. VLSI synthesis primarily relies on Static CMOS for reliability."
+  },
+  {
+    "q_no": "230",
+    "question": "Analyze the design and operation of CMOS NAND and NOR gates with circuit diagrams.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. NAND has parallel PMOS pull-ups and series NMOS pull-downs. 2. NOR has series PMOS pull-ups and parallel NMOS pull-downs. 3. Series transistors increase resistance and delay. 4. NMOS passes electrons faster than PMOS passes holes. 5. Therefore, series NMOS in NAND is faster than series PMOS in NOR. 6. To match speed, NOR PMOS must be made very wide. 7. Wide PMOS increases input capacitance, slowing down previous gates. 8. NAND is significantly more area-efficient on silicon. 9. NAND provides better overall propagation delay. 10. Consequently, standard cell libraries are heavily NAND-based."
+  },
+  {
+    "q_no": "231",
+    "question": "Diagram the construction and working of a CMOS full adder circuit, explaining each component\u2019s role.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Inputs: A, B, and Carry-in (Cin). 2. Outputs: Sum and Carry-out (Cout). 3. Sum logic relies heavily on XOR/XNOR gate equivalents. 4. Cout logic evaluates if at least two inputs are high. 5. Pull-up network calculates inverted logic functions. 6. Pull-down network mirrors the pull-up topology. 7. An output inverter restores the signal to non-inverted form. 8. Mirror adder topology optimizes the layout area. 9. Transmission gate implementations can reduce transistor count. 10. Adders are placed in critical paths and must be optimized for speed."
+  },
+  {
+    "q_no": "232",
+    "question": "Illustrate the function and advantages of CMOS transmission gates in digital circuits.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. A transmission gate pairs an NMOS and PMOS in parallel. 2. Controlled by a clock signal and its inverted complement. 3. When active, it acts as a nearly perfect short circuit. 4. Single NMOS passes a weak '1' (loses threshold voltage). 5. Single PMOS passes a weak '0' (loses threshold voltage). 6. The parallel combo passes strong '1's and strong '0's perfectly. 7. Extremely useful for designing 2-to-1 multiplexers. 8. Greatly reduces transistor count in flip-flops. 9. Reduces dynamic power compared to static logic gates. 10. Bi-directional capability allows creative analog/digital routing."
+  },
+  {
+    "q_no": "233",
+    "question": "Criticize the limitations of conventional CMOS logic and discuss how advanced CMOS logic circuits overcome them.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Limit: Requires 2N transistors, taking massive physical area. 2. Solution: Pass-transistor logic cuts count down significantly. 3. Limit: PMOS is slow, requiring larger sizing. 4. Solution: Dynamic logic removes PMOS pull-up networks entirely. 5. Limit: High input capacitance slows down switching speed. 6. Solution: Domino logic uses single-phase clocks for rapid cascading. 7. Limit: Short-circuit current during slow input transitions. 8. Solution: Advanced Schmitt triggers sharpen slow signals. 9. Limit: Static logic is too slow for GHz ALU paths. 10. Solution: Pipelined dynamic domino logic achieves massive frequencies."
+  },
+  {
+    "q_no": "234",
+    "question": "Simplify the working of sequential CMOS logic circuits by explaining SR latch and its variations.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. SR latch is the simplest memory element (Set/Reset). 2. Built using two cross-coupled NOR or NAND gates. 3. Output feeds back into input to hold state indefinitely. 4. Variation: Clocked SR Latch adds enable lines. 5. Clocked version only changes state when clock is high. 6. Problem: S=1, R=1 causes an unstable/invalid state. 7. Variation: D-Latch solves this by tying S and inverted R together. 8. D-Latch safely captures data without invalid states. 9. Latches are level-sensitive, making them vulnerable to glitches. 10. Serves as the foundation for complex edge-triggered memory."
+  },
+  {
+    "q_no": "235",
+    "question": "Associate the role of clocked JK latch and master-slave JK flip-flop in sequential circuit design.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Clocked JK latch improves SR by allowing a toggle state (1,1). 2. Achieves this by feeding outputs back to the input gates. 3. Problem: \"Race-around\" condition if clock stays high too long. 4. Output toggles unpredictably before the clock falls. 5. Solution: The Master-Slave JK Flip-Flop. 6. Uses two cascaded latches with inverted clocks. 7. Master captures input on the rising clock edge. 8. Slave outputs the captured data on the falling clock edge. 9. Completely isolates input from output, preventing races. 10. Essential for building reliable shift registers and counters."
+  },
+  {
+    "q_no": "236",
+    "question": "Choose the best CMOS flip-flop design for edge-triggered applications and justify your selection.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. The best design is the Transmission Gate (TG) based D Flip-Flop. 2. It consists of two back-to-back TG-based D-latches. 3. Acts in a master-slave configuration using inverted clocks. 4. Justification: Extremely low transistor count compared to gate logic. 5. Justification: Very fast setup and hold times. 6. Justification: Minimal clock-to-Q propagation delay. 7. Justification: Consumes less dynamic power during switching. 8. Provides clean, full-swing output voltage levels. 9. Highly compact, saving massive area in VLSI registers. 10. It is the undisputed standard in modern microprocessor libraries."
+  },
+  {
+    "q_no": "237",
+    "question": "Compare and contrast the performance of different CMOS flip-flop types used in VLSI circuits.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Gate-based D Flip-Flop: Large area, reliable, high power draw. 2. Transmission Gate D-FF: Fast, small area, low power, standard use. 3. True Single Phase Clock (TSPC) FF: Uses only one clock signal. 4. TSPC Advantage: Eliminates clock skew issues completely. 5. TSPC Disadvantage: Dynamic nature requires minimum clock speeds. 6. C2MOS Flip-Flop: Highly immune to clock overlap errors. 7. SR/JK Flip-flops: Rarely used raw in VLSI due to complexity. 8. Power comparison: TSPC uses less routing power than TG FF. 9. Speed comparison: TSPC and Dynamic FFs are the fastest. 10. VLSI standard cell libraries heavily optimize the TG D-FF for general use."
+  },
+  {
+    "q_no": "238",
+    "question": "Evaluate the impact of power consumption and propagation delay in CMOS logic design, suggesting methods to optimize them.",
+    "type": "Long  (Text)",
+    "co": "CO3",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Power dictates battery life and thermal limits. 2. Delay dictates the maximum CPU clock frequency. 3. Trade-off: Increasing transistor size reduces delay but increases power. 4. Dynamic power is caused by charging/discharging capacitance (P=CV^2f). 5. Static power is caused by sub-threshold leakage currents. 6. Optimization: Lowering supply voltage (VDD) quadratically saves power. 7. Optimization: Clock gating shuts off power to idle circuits. 8. Optimization: Multi-Vth libraries use fast transistors only where needed. 9. Optimization: Minimizing wire lengths reduces parasitic capacitance. 10. Proper logical effort calculations balance speed and power perfectly."
+  },
+  {
+    "q_no": "239",
+    "question": "Classify the different types of VLSI design methodologies and explain their advantages and disadvantages.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Full-Custom: Every polygon is manually drawn. 2. FC Advantage: Absolute maximum speed and area efficiency. 3. FC Disadvantage: Years of design time, incredibly expensive. 4. Semi-Custom (Standard Cell): Uses pre-designed logic libraries. 5. SC Advantage: Automated synthesis, fast time-to-market. 6. SC Disadvantage: Slightly slower and larger than full custom. 7. Gate Array: Wafers pre-fabbed with gates, only wiring is custom. 8. GA Advantage: Very fast turnaround for manufacturing. 9. GA Disadvantage: High wasted area, lower performance. 10. Programmable (FPGA): Off-the-shelf, programmed via software."
+  },
+  {
+    "q_no": "240",
+    "question": "Break down the full-custom and semi-custom design approaches in VLSI and analyze their impact on performance and cost.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Full-custom allows perfect sizing of every individual transistor. 2. Eliminates any unnecessary parasitic capacitance. 3. Results in the absolute highest possible clock frequencies. 4. Costs millions of dollars in engineering hours alone. 5. Used only for high-volume flagship CPUs (Intel/AMD). 6. Semi-custom relies on generic, pre-characterized standard cells. 7. Tools automatically place and route these cells. 8. Design time is reduced from years to months. 9. NRE costs are significantly lower due to automation. 10. Slight performance hit is acceptable for 95% of consumer ASICs."
+  },
+  {
+    "q_no": "241",
+    "question": "Categorize the different types of standard cell libraries used in semi-custom design and explain their significance.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Base logic cells: NAND, NOR, Inverters, XOR. 2. Sequential cells: D-Flip-Flops, Latches, Registers. 3. Datapath cells: Adders, Multipliers, Comparators. 4. I/O pads: Voltage level shifters, ESD protection. 5. High-Vth libraries: Slow switching, extremely low leakage power. 6. Low-Vth libraries: Ultra-fast switching, high leakage power. 7. Multi-track libraries determine the physical height of the cells. 8. Significance: Abstracts physics away from the logic designer. 9. Significance: Provided directly by the silicon foundry (TSMC/Intel). 10. Significance: Guarantees electrical reliability before tape-out."
+  },
+  {
+    "q_no": "242",
+    "question": "Analyze the architectural differences between FPGA and ASIC and discuss their trade-offs.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. FPGA uses programmable Look-Up Tables (LUTs). 2. ASIC uses hardwired CMOS logic gates. 3. FPGA interconnects are programmable switches. 4. ASIC interconnects are permanent metal wires. 5. FPGA is physically larger for the exact same logic function. 6. ASIC achieves much higher clock frequencies (GHz vs MHz). 7. ASIC consumes a fraction of the power of an FPGA. 8. FPGA has zero NRE (Non-Recurring Engineering) fabrication cost. 9. ASIC requires million-dollar mask sets. 10. Trade-off: FPGA for low-volume/prototyping, ASIC for mass production."
+  },
+  {
+    "q_no": "243",
+    "question": "Diagram the FPGA internal architecture and explain how its components work together.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K4",
+    "options": {},
+    "answer": "1. Configurable Logic Blocks (CLBs) are the core math units. 2. Inside CLBs are LUTs, which simulate any boolean logic gate. 3. CLBs also contain flip-flops for storing intermediate data. 4. Programmable Routing Matrix surrounds the CLBs like a grid. 5. Routing matrices connect CLBs using switch boxes. 6. I/O Blocks (IOBs) surround the perimeter to interface externally. 7. Hard IP blocks (like DSPs and RAM) are scattered for heavy math. 8. A configuration SRAM network overlays the entire chip. 9. When powered, a bitstream loads into the SRAM. 10. The SRAM states flip the switches, physically forming the circuit."
+  },
+  {
+    "q_no": "244",
+    "question": "Illustrate the process of standard cell placement and routing in semi-custom VLSI design.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Starts with a synthesized logical gate netlist. 2. Floorplanning allocates physical area and sets I/O pin locations. 3. Power rings and stripes are placed to distribute VDD/GND. 4. Global Placement algos position cells to minimize total wire length. 5. Detailed Placement snaps cells into rigid, uniform standard rows. 6. Clock Tree Synthesis (CTS) routes the clock to all flip-flops evenly. 7. CTS aims to achieve near-zero clock skew. 8. Global Routing plans the general paths for signal wires. 9. Detailed Routing assigns specific metal layers and tracks. 10. Finally, Design Rule Checks (DRC) ensure manufacturing compliance."
+  },
+  {
+    "q_no": "245",
+    "question": "Criticize the limitations of FPGA-based designs compared to custom ASIC designs.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Performance cap: FPGAs rarely exceed a few hundred MHz. 2. ASIC counterparts easily reach multiple GHz. 3. Power hogs: Unused routing transistors still leak power. 4. Area inefficiency: LUTs take more space than direct logic gates. 5. Unit cost: FPGAs are incredibly expensive per individual chip. 6. Security: Bitstreams can be intercepted and reverse-engineered. 7. Analog limitations: FPGAs have very limited analog/RF capabilities. 8. Radiation: SRAM-based FPGAs flip bits in space environments. 9. Boot time: Require milliseconds to load logic upon power-up. 10. Scaling: ASIC is the only economic choice for millions of units."
+  },
+  {
+    "q_no": "246",
+    "question": "Simplify the process of FPGA logic synthesis and implementation.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Developer writes human-readable code in Verilog or VHDL. 2. Synthesis software translates code into generic logic gates. 3. Technology Mapping converts generic gates into specific LUTs. 4. Packing groups LUTs and flip-flops into efficient CLB clusters. 5. Placement assigns these CLBs to physical coordinates on the chip. 6. Routing calculates the electrical paths through the switch matrix. 7. Timing Analysis checks if the signals will arrive fast enough. 8. If timing fails, the software re-routes or designer tweaks code. 9. Bitstream Generation compiles the map into a binary file. 10. The bitstream is flashed onto the FPGA hardware via USB."
+  },
+  {
+    "q_no": "247",
+    "question": "Associate the role of standard cell libraries with semi-custom design automation.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Libraries are the bridge between software and silicon. 2. They provide the fundamental 'LEGO bricks' for synthesizers. 3. Contain logical definitions (Verilog) for functional verification. 4. Contain layout geometries (GDSII) for physical masking. 5. Contain timing files (Liberty) for speed calculations. 6. Enable EDA tools to automatically swap slow cells for fast ones. 7. Eliminate the need for logic designers to understand physics. 8. Ensure foundry compatibility (e.g., TSMC 5nm library). 9. Drastically reduce human error in physical layout. 10. Drive the entire automated ASIC flow from RTL to GDSII."
+  },
+  {
+    "q_no": "248",
+    "question": "Evaluate the performance metrics of FPGA architectures in real-world applications.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Throughput: Excellent for massive parallel data streams (video). 2. Latency: Highly deterministic, superior to standard CPUs. 3. Clock Speed: Average, generally limited to 200-500 MHz. 4. Power Efficiency: Better than GPUs, worse than ASICs. 5. Reconfigurability metric: Allows rapid updates in data centers. 6. Hardware Acceleration: Offloads heavy crypto math from CPUs. 7. Telecom: Vital for rapid deployment of evolving 5G standards. 8. Prototyping: Industry standard for emulating chips before tape-out. 9. Defense/Aero: Fast turnaround for low-volume, secure tech. 10. Limits: Inefficient for heavy floating-point math unless using hard DSPs."
+  },
+  {
+    "q_no": "249",
+    "question": "Compare and contrast the benefits and drawbacks of FPGA and full-custom ASIC designs.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. FPGA benefit: Instant deployment, zero factory turnaround time. 2. FPGA benefit: Errors can be fixed instantly with an update. 3. ASIC benefit: Flawless optimization for power, speed, and size. 4. ASIC benefit: Unit cost is pennies in mass production. 5. FPGA drawback: Individual chip costs can be thousands of dollars. 6. FPGA drawback: Cannot compete in extreme high-frequency domains. 7. ASIC drawback: Requires tens of millions in upfront mask costs. 8. ASIC drawback: A single bug requires a complete factory redo. 9. Contrast: FPGAs program via software; ASICs are physically etched. 10. Industry flow: Design on FPGA, mass-produce on ASIC."
+  },
+  {
+    "q_no": "250",
+    "question": "Justify the choice of FPGA over ASIC in rapid prototyping and evolving market applications.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K5",
+    "options": {},
+    "answer": "1. Prototyping ASIC takes months; FPGA takes minutes to compile. 2. FPGA allows real-time hardware debugging and iteration. 3. ASIC NRE costs are prohibitive for experimental architectures. 4. FPGAs prove functional viability before securing ASIC funding. 5. Evolving markets (like AI/5G) change standards constantly. 6. FPGAs allow field updates to adapt to new algorithms. 7. ASICs would become obsolete instantly if a standard changes. 8. FPGAs eliminate supply chain factory wait times. 9. Lower financial risk for startups entering niche hardware markets. 10. Allows companies to hit the market immediately while ASIC is fabricating."
+  },
+  {
+    "q_no": "251",
+    "question": "Describe the differences between Full-Custom and Semi-Custom VLSI design methodologies. Provide advantages, disadvantages, and typical applications of each.",
+    "type": "Long  (Text)",
+    "co": "CO4",
+    "k_level": "K2",
+    "options": {},
+    "answer": "1. Full-Custom involves manual design at the transistor/polygon level. 2. Semi-Custom uses software to arrange pre-built standard cells. 3. FC Advantage: Absolute peak performance and minimal area. 4. FC Disadvantage: Extremely slow, high cost, high risk of error. 5. SC Advantage: Automated, highly reliable, fast development cycle. 6. SC Disadvantage: Sub-optimal speeds and wasted silicon area. 7. FC Application: High-end CPU data paths, memory cells, analog RF. 8. SC Application: General purpose microcontrollers, consumer electronics. 9. FC requires deep physical semiconductor physics knowledge. 10. SC requires digital logic and software automation knowledge."
+  }
+]
