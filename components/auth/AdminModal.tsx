@@ -29,7 +29,7 @@ export default function AdminModal({ onClose, onLogin }: Props) {
       const res = await fetch("/api/auth", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "Devloper", password }),
+        body: JSON.stringify({ type: "Devloper(Admin)", password }),
       });
       const data = await res.json();
       if (data.success) {
