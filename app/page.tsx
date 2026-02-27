@@ -11,8 +11,7 @@ export default function Home() {
   return (
     <>
       <Toast />
-      {user ? (
-      
+      {user ? ( 
         <QuestionsPage user={user} onLogout={() => setUser(null)} />
       ) : (
         <LoginPage onLogin={setUser} />
