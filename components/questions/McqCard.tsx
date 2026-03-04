@@ -49,7 +49,7 @@ export default function McqCard({ question, index }: Props) {
           className="px-2.5 py-1 rounded-lg text-xs font-bold font-syne flex-shrink-0 mt-0.5"
           style={{ background: "linear-gradient(135deg, #00d4ff, #7b2ff7)", color: "#fff" }}
         >
-          Q{question.q_no}
+          Q{index+1}
         </span>
         <div className="flex gap-2 flex-wrap mt-0.5">
           <span className="px-2 py-0.5 rounded-md text-xs font-semibold" style={{ background: "rgba(0,212,255,0.12)", border: "1px solid rgba(0,212,255,0.2)", color: "#00d4ff" }}>
