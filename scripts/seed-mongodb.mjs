@@ -5,9 +5,6 @@
  *
  * Usage:
  *   npm run seed
- *
- * Make sure your .env.local has:
- *   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/final-year
  */
 
 import { MongoClient } from "mongodb";
