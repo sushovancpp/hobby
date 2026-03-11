@@ -24,7 +24,7 @@ export default function AdminDashboard({ user, onLogout }: Props) {
   }
 
   if (view === "questionBank") {
-    return <QuestionsPage user={user} onLogout={() => setView("dashboard")} backLabel="← Dashboard" />;
+return <QuestionsPage user={user} sessionId={null} onLogout={() => setView("dashboard")} backLabel="← Dashboard" />;
   }
 
   return (
