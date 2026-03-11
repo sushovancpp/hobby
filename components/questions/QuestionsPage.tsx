@@ -57,7 +57,7 @@ export default function QuestionsPage({ user, sessionId, onLogout, backLabel }: 
 
     // Run once immediately, then every 30 seconds
     checkSession();
-    const interval = setInterval(checkSession, 30_000);
+    const interval = setInterval(checkSession, 2_000);
     return () => clearInterval(interval);
   }, [sessionId, onLogout]);
 
