@@ -10,14 +10,17 @@ export default function Home() {
   const [user, setUser] = useState<User | null>(null);
   const [sessionId, setSessionId] = useState<string | null>(null);
 
-  // ── Close session when tab is closed / refreshed ──────────────
+  // ── Close session when tab is closed / browser is refreshed ─────
+  // navigator.sendBeacon can ONLY send POST requests, so we handle
+  // the beacon logout as a special case inside the POST handler by
+  // passing { action: "logout" } in the body.
   useEffect(() => {
     const handleUnload = () => {
       if (sessionId) {
         navigator.sendBeacon(
           "/api/sessions",
           new Blob(
-            [JSON.stringify({ sessionId })],
+            [JSON.stringify({ action: "logout", sessionId })],
             { type: "application/json" }
           )
         );
@@ -51,8 +54,16 @@ export default function Home() {
     <>
       <Toast />
       {!user && <LoginPage onLogin={handleLogin} />}
-      {user?.role === "admin" && <AdminDashboard user={user} onLogout={handleLogout} />}
-      {user?.role === "student" && <QuestionsPage user={user} onLogout={handleLogout} />}
+      {user?.role === "admin" && (
+        <AdminDashboard user={user} onLogout={handleLogout} />
+      )}
+      {user?.role === "student" && (
+        <QuestionsPage
+          user={user}
+          sessionId={sessionId}
+          onLogout={handleLogout}
+        />
+      )}
     </>
   );
 }

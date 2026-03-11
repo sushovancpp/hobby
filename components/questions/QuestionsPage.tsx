@@ -7,8 +7,9 @@ import TextCard from "./TextCard";
 
 interface Props {
   user: User;
+  sessionId: string | null;  // ← new: needed for server-side validity check
   onLogout: () => void;
-  backLabel?: string; // if provided, shows a back arrow instead of logout label
+  backLabel?: string;
 }
 
 type Tab = QuestionCategory;
@@ -19,19 +20,46 @@ const tabs: { id: Tab; label: string; icon: string; color: string }[] = [
   { id: "long",  label: "Long (5 Marks)",  icon: "fa-scroll",        color: "#f093fb" },
 ];
 
-export default function QuestionsPage({ user, onLogout, backLabel }: Props) {
+export default function QuestionsPage({ user, sessionId, onLogout, backLabel }: Props) {
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading]     = useState(true);
   const [activeTab, setActiveTab] = useState<Tab>("mcq");
-  const [search, setSearch] = useState("");
-  const [activeCO, setActiveCO] = useState<string>("ALL");
+  const [search, setSearch]       = useState("");
+  const [activeCO, setActiveCO]   = useState<string>("ALL");
 
+  // ── Load questions on mount ────────────────────────────────────
   useEffect(() => {
     fetch("/api/questions")
       .then((r) => r.json())
       .then((data) => { setQuestions(data); setLoading(false); })
       .catch(() => setLoading(false));
   }, []);
+
+  // ── Session validity polling ───────────────────────────────────
+  // Every 30 seconds we ask the server whether this session is still
+  // active. If admin has force-logged the student out, valid === false
+  // and we immediately redirect the student back to the login screen.
+  useEffect(() => {
+    if (!sessionId) return;
+
+    const checkSession = async () => {
+      try {
+        const res  = await fetch(`/api/sessions/check?id=${sessionId}`);
+        const data = await res.json();
+        if (!data.valid) {
+          // Session ended server-side (force logout by admin)
+          onLogout();
+        }
+      } catch {
+        // Network error — don't kick the student, try again next cycle
+      }
+    };
+
+    // Run once immediately, then every 30 seconds
+    checkSession();
+    const interval = setInterval(checkSession, 30_000);
+    return () => clearInterval(interval);
+  }, [sessionId, onLogout]);
 
   const grouped = useMemo(() => groupQuestions(questions), [questions]);
 
@@ -170,7 +198,7 @@ export default function QuestionsPage({ user, onLogout, backLabel }: Props) {
               : "Long Answer Questions"}
           </h2>
           <p className="text-[var(--muted)] text-sm">
-            {activeTab === "mcq" && "Select an option · Ask AI reveals the correct answer instantly"}
+            {activeTab === "mcq"   && "Select an option · Ask AI reveals the correct answer instantly"}
             {activeTab === "short" && "3-mark questions · AI generates 6 key points with explanation"}
             {activeTab === "long"  && "5-mark questions · AI generates 10 detailed points with explanation"}
           </p>
@@ -212,9 +240,7 @@ export default function QuestionsPage({ user, onLogout, backLabel }: Props) {
                 onClick={() => setActiveCO(co)}
                 className="px-3 py-2 rounded-lg text-xs font-bold font-syne transition-all duration-200 whitespace-nowrap"
                 style={{
-                  background: activeCO === co
-                    ? tab.color
-                    : "rgba(255,255,255,0.05)",
+                  background: activeCO === co ? tab.color : "rgba(255,255,255,0.05)",
                   color: activeCO === co ? "#000" : "var(--muted)",
                   border: activeCO === co
                     ? `1.5px solid ${tab.color}`
@@ -232,9 +258,17 @@ export default function QuestionsPage({ user, onLogout, backLabel }: Props) {
         {/* Results count */}
         {!loading && (
           <p className="text-[var(--muted)] text-xs mb-4">
-            Showing <span style={{ color: tab.color }} className="font-bold">{filtered.length}</span> questions
-            {activeCO !== "ALL" && <> in <span style={{ color: tab.color }} className="font-bold">{activeCO}</span></>}
-            {search && <> matching &ldquo;<span className="text-white">{search}</span>&rdquo;</>}
+            Showing{" "}
+            <span style={{ color: tab.color }} className="font-bold">{filtered.length}</span>{" "}
+            questions
+            {activeCO !== "ALL" && (
+              <> in{" "}
+                <span style={{ color: tab.color }} className="font-bold">{activeCO}</span>
+              </>
+            )}
+            {search && (
+              <> matching &ldquo;<span className="text-white">{search}</span>&rdquo;</>
+            )}
           </p>
         )}
 
