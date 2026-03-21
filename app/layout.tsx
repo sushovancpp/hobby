@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "final-year | VLSI Question Bank",
   description: "VLSI Question Bank for final year students",
+  verification: {
+    google: "google44fb0eafeca6057d",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
