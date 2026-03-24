@@ -6,9 +6,10 @@ import AdminModal from "./AdminModal";
 
 interface Props {
   onLogin: (user: User, sessionId?: string) => void;
+  onBack?: () => void;
 }
 
-export default function LoginPage({ onLogin }: Props) {
+export default function LoginPage({ onLogin, onBack }: Props) {
   const [name, setName] = useState("");
   const [code, setCode] = useState("");
   const [loading, setLoading] = useState(false);
@@ -45,6 +46,18 @@ export default function LoginPage({ onLogin }: Props) {
     <div
       className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-10"
     >
+      {/* Back button */}
+      {onBack && (
+        <button
+          onClick={onBack}
+          className="absolute top-6 left-6 flex items-center gap-2 text-sm transition-all duration-200 hover:text-white fade-up"
+          style={{ color: "var(--muted)" }}
+        >
+          <i className="fa-solid fa-arrow-left text-xs" />
+          Back
+        </button>
+      )}
+
       {/* Logo */}
       <div className="text-center mb-10 fade-up">
         <h1
