@@ -20,7 +20,7 @@ dotenv.config({ path: join(__dirname, "../.env.local") });
 const uri = process.env.MONGODB_URI;
 
 if (!uri) {
-  console.error("\n❌  MONGODB_URI not found in .env.local");
+  console.error("\n  MONGODB_URI not found in .env.local");
   console.error("    Add this line to your .env.local file:");
   console.error("    MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/final-year\n");
   process.exit(1);
