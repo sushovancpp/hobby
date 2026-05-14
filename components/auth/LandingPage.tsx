@@ -119,22 +119,39 @@ export default function LandingPage({ onEnter }: Props) {
           {TOPICS[tagIndex]}
         </div>
 
-        {/* CTA */}
-        <button
-          onClick={onEnter}
-          className="mt-2 px-10 py-4 rounded-2xl font-syne font-bold text-base tracking-wide flex items-center gap-3 transition-all duration-300 hover:shadow-[0_8px_40px_rgba(0,212,255,0.4)] hover:-translate-y-1 active:scale-95"
-          style={{
-            background: "linear-gradient(135deg, #00d4ff, #7b2ff7)",
-            color: "#fff",
-          }}
-        >
-          <i className="fa-solid fa-door-open" />
-          Enter Question Bank
-          <i className="fa-solid fa-arrow-right text-sm" />
-        </button>
+        {/* CTA buttons row */}
+        <div className="mt-2 flex flex-wrap items-center justify-center gap-3">
+          <button
+            onClick={onEnter}
+            className="px-10 py-4 rounded-2xl font-syne font-bold text-base tracking-wide flex items-center gap-3 transition-all duration-300 hover:shadow-[0_8px_40px_rgba(0,212,255,0.4)] hover:-translate-y-1 active:scale-95"
+            style={{
+              background: "linear-gradient(135deg, #00d4ff, #7b2ff7)",
+              color: "#fff",
+            }}
+          >
+            <i className="fa-solid fa-door-open" />
+            Enter Question Bank
+            <i className="fa-solid fa-arrow-right text-sm" />
+          </button>
+
+          <a
+            href="https://sushovancpp.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-7 py-4 rounded-2xl font-syne font-bold text-base tracking-wide flex items-center gap-2 transition-all duration-300 hover:-translate-y-1 active:scale-95"
+            style={{
+              background: "rgba(255,255,255,0.05)",
+              border: "1.5px solid rgba(0,212,255,0.3)",
+              color: "var(--cyan)",
+            }}
+          >
+            <i className="fa-solid fa-globe text-sm" />
+            Visit Us
+          </a>
+        </div>
 
         <p className="text-xs" style={{ color: "rgba(232,234,246,0.3)" }}>
-          Authorised students only · Powered by DoTAi
+          A website by Sushovan Masanta
         </p>
       </section>
 
@@ -207,7 +224,14 @@ export default function LandingPage({ onEnter }: Props) {
       {/* ── Footer ── */}
       <p className="mt-16 text-xs fade-up" style={{ color: "rgba(232,234,246,0.25)", animationDelay: "0.5s" }}>
         © {new Date().getFullYear()} final-year · VLSI Question Bank · Made with ♥ by{" "}
-        <span style={{ color: "var(--cyan)" }}>DoTAi</span>
+        <a
+          href="https://sushovancpp.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "var(--cyan)", textDecoration: "none" }}
+        >
+          Sushovan Masanta
+        </a>
       </p>
     </div>
   );
